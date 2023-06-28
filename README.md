@@ -1,2 +1,9 @@
-# NGS_PathFinder
-Pathfinding Algorithms implemented on "Phantasy Star Online 2: New Genesis" World 
+ # NGS PathFinding
+
+This project was developed as part of a University project, with the aim of showcasing various pathfinding algorithms.
+
+It focuses on implementing pathfinding functionality on top of an existing interactive map of "Phantasy Star Online: New Genesis" (PSO2: NGS), an open world MMORPG.
+
+### Acknowledgements
+
+- Static images and data was fetched from https://github.com/kosnag/NGS_WorldMap.

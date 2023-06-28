@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d=$jr5c$x(t5b0amcb-i!15f59eo$r#hq1abpvz_^gv9*)xwwa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['15.168.82.136']
 
 
 # Application definition
@@ -54,7 +54,9 @@ ROOT_URLCONF = 'ngs_pathfinder_web.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,7 +118,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-
+STATICFILES_DIRS= [
+    BASE_DIR / 'static', 
+]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

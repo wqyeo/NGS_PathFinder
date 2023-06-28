@@ -1,0 +1,40 @@
+{
+    "sections": {
+        "aelio": {
+            "centralAelio": "Центральное Эарио",
+            "centralCity": "Централ-Сити",
+            "halphiaLake": "Озеро Хальфия",
+            "vanfordLaboratoryRuins": "Руины лаборатории Ванфорд",
+            "mtMagnus": "Гора Магнус",
+            "northAelio": "Северное Эарио",
+            "resolForest": "Лес Резол",
+            "southAelio": "Южное Эарио",
+            "westAelio": "Западное Эарио"
+        },
+        "retem": {
+            "centralRetem": "Центральный Ритем",
+            "rwhMaqead": "Верхний Макуадо",
+            "maqeadLowerLevel": "Нижний Макуадо",
+            "northRetem": "Северный Ритем",
+            "retemAlnothe": "Ритем Эрноза",
+            "retemCity": "Ритем-Сити",
+            "southRetem": "Южный Ритем",
+            "westRetem": "Западный Ритем"
+        },
+        "kvaris": {
+            "kvarisCamp": "Лагерь Кварис",
+            "centralKvaris": "Центр Кварис",
+            "southKvaris": "Юг Кварис",
+            "northKvaris": "Север Кварис",
+            "westKvaris": "Запад Кварис",
+            "rayjordGorge": "Ущелье Рейолд",
+            "beluganaRuins": "Руины Беругана",
+            "lostCentral": "Утраченный Централ"
+        }
+    },
+    "type": {
+        "lobby": "Лобби",
+        "gathering": "Секция для исследования",
+        "combat": "Секция для боёв"
+    }
+}

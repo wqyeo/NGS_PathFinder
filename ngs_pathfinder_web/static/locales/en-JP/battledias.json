@@ -1,0 +1,22 @@
+{
+    "regular": {
+        "aelioTroopers": "Aelio Troopers",
+        "aelioDevastators": "Aelio Devastators",
+        "retemTroopers": "Retem Troopers",
+        "retemDevastators": "Retem Devastators",
+        "kvarisTroopers": "Kvaris Troopers",
+        "kvarisDevastators": "Kvaris Devastators",
+        "stiaTroopers": "Stia Troopers",
+        "stiaDevastators": "Stia Devastators"
+    },
+    "type": {
+        "yellow": {
+            "clearCondition": "Defeat the enemies",
+            "description": "This is a Battledia designed to test the combat capabilities of ARKS. Show off your skills and defeat all the enemies."
+        },
+        "purple": {
+            "clearCondition": "Defeat the enemies",
+            "description": "This is a Battledia designed to test the combat capabilities of ARKS. Show off your skills and defeat the Gigantix that appear before you one by one."
+        }
+    }
+}

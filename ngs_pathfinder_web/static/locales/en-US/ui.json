@@ -1,0 +1,85 @@
+{
+    "page_title": "PSO2NGS Interactive Map",
+    "navbar": {
+        "donate": "Donate",
+        "mapLegend": "Map Legend",
+        "options": "Options"
+    },
+    "legendMenu": {
+        "categories": {
+            "landmarks": "Landmarks",
+            "minerals": "Minerals",
+            "food": "Food",
+            "containers": "Containers",
+            "other": "Other"
+        }
+    },
+    "optionsMenu": {
+        "categories": {
+            "languages": "Languages",
+            "mapping": "Mapping",
+            "reset": "Reset",
+            "about": "About"
+        },
+        "items": {
+            "languages": {
+                "en-US": "English",
+                "ja-JP": "Japanese",
+                "en-JP": "Enlgish (Fan-Patch)",
+                "ru-RU": "Russian",
+                "ko-KR": "Korean"
+            },
+            "mapping": {
+                "discord": "Join to Discord",
+                "translate": "Help with tranlating",
+                "start": "Go to mapping mode"
+            },
+            "reset": {
+                "lang": "Reset language",
+                "visibility": "Reset markers",
+                "checked": "Reset checked markers",
+                "everything": "Reset everything"
+            },
+            "about": {
+                "author": "Author",
+                "contributers": "Contributers",
+                "segaCopyright": "All Rights Reserved by SEGA"
+            }
+        }
+    },
+    "map": {
+        "foodType": {
+            "fruit": "Fruit",
+            "seafood": "Seafood",
+            "vegetable": "Vegetables"
+        },
+        "stellarGraceType": {
+            "gold": "Golden",
+            "silver": "Silver",
+            "default": "Default"
+        },
+        "type": "Type",
+        "rank": "Rank",
+        "maxPlayers": "Max Players",
+        "requiredBP": "Required Battle Power",
+        "recommendedBP": "Recommended Battle Power",
+        "enemyLv": "Enemy Level",
+        "subMissions": "Sub Missions",
+        "clearCondition": "Clear Condition",
+        "failCondition": "Fail Condition",
+        "description": "Description",
+        "placedBy": "Placed By",
+        "rewards": {
+            "possible": "Possible Rewards",
+            "guaranteed": "Rewards",
+            "firstTime": "First Clear Rewards"
+        },
+        "enemyTypes": {
+            "dread": "Dread",
+            "gigantix": "Gigantix",
+            "ancient": "Ancient"
+        },
+        "checkHint": "Press the left mouse button on marker to mark it as checked",
+        "availableChallengeRank": "For this Trainia available Challenge Rank"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "altersRush": {
+        "title": "Alters Rush",
+        "description": "This Trainia tests the combat skills of each ARKS. Avoid fighting other enemies as much as possible and defeat the \"Cicurio\" that awaits in the final area.",
+        "clearCondition": "Reach the Finish Point",
+        "subMission1": "Clear in under 8:00",
+        "subMission2": "Defeat fewer than 4 enemies",
+        "subMission3": "Clear in under 5 incapacitation(s)"
+    },
+    "greatWall": {
+        "title": "Great Wall",
+        "description": "This Trainia tests the combat skills of each ARKS. Make full use of your combat abilities as a Daedal Sword awaits you in the final area.",
+        "clearCondition": "Reach the Finish Point",
+        "subMission1": "Clear in under 23:00",
+        "subMission2": "Clear in under 5 incapacitation(s)",
+        "subMission3": "Clear after obtaining 5 Point Cube(s)"
+    },
+    "aeroRunner": {
+        "title": "Aero Runner",
+        "description": "This Trainia tests the flight skills of each ARKS. Use the \"Photon Glide\" to reach the point target.",
+        "clearCondition": "Reach the Finish Point",
+        "subMission1": "Clear in under 2:05",
+        "subMission2": "Clear while falling fewer than 5 time(s)",
+        "subMission3": "Clear after obtaining 10 Point Cube(s)"
+    },
+    "dollsBurrow": {
+        "title": "DOLLS Burrow",
+        "description": "This Trainia will test ARKS' combat skills. Make full use of your combat abilities as a Destragras awaits vou in the final area.",
+        "clearCondition": "Defeat: Destragras",
+        "subMission1": "Clear after obtaining 5 Point Cube(s)",
+        "subMission2": "Clear in under 3 incapacitation(s)",
+        "subMission3": "Clear in under 10:00"
+    },
+    "deepWell": {
+        "title": "Deep Well",
+        "description": "This Trainia will test ARKS' combat skills. Make full use of your combat abilities as an Ams Clone awaits you in the final area.",
+        "clearCondition": "Defeat: 3 Ams Klone",
+        "subMission1": "Clear in under 2:50",
+        "subMission2": "Clear while talking damage fewer than 30 time(s)",
+        "subMission3": "Clear after obtaining 5 Point Cube(s)"
+    },
+    "brokenWorld": {
+        "title": "Broken World",
+        "description": "This Trainia will test ARKS' combat skills. Use your skills to defeat the Dark Magirus.",
+        "clearCondition": "Defeat: Dark Magirus",
+        "subMission1": "Clear while falling fewer than 3 time(s)",
+        "subMission2": "Clear in under 7:00",
+        "subMission3": "Clear in under 1 incapacitation(s)"
+    }
+}

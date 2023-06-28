@@ -1,0 +1,206 @@
+{
+    "landmark": {
+        "battledia": {
+            "title": "Battledia",
+            "description": "Battledia Quests are unique quests that can be accessed through a Trigger Portal."
+        },
+        "cocoon": {
+            "title": "Cocoon",
+            "description": "Cocoons are smaller challenges designed to test players."
+        },
+        "mag": {
+            "title": "Regional Mag",
+            "description": "By giving gathering materials to a Region Mag, you can improve the boosts that Region Mag gives to players in the current region, as well as level up your own personal boosts."
+        },
+        "ryuker": {
+            "title": "Ryuker Device",
+            "description": "Ryuker Devices can be used for several purposes, including changing Blocks, accessing your Storage remotely, creating Quick Food, moving to different Rooms, and quick travel."
+        },
+        "tower": {
+            "title": "Tower",
+            "description": "Towers are larger challenges, more complex quests similar to \"Time Attack\" quests from PSO2."
+        },
+        "urgent": {
+            "title": "Emergency Quest",
+            "description": "Urgent Quests are special Quests that can occur several times a day and can only be accepted during the time period it occurs."
+        },
+        "advTrainia": {
+            "title": "Advanced Trainia",
+            "description": "Advanced Trainias are challenging quests with the ability to select modifiers to complicate the passage and get better rewards."
+        },
+        "ltq": {
+            "title": "Limited-Time Quests",
+            "description": "You can accept all kinds of special quests such as Limited-Time Quests at the Quest Counter found in every town."
+        }
+    },
+    "mineral": {
+        "dualomite": {
+            "title": "Dualomite",
+            "description": "Used to unlock Potentials and Limit Break items at the Item Lab."
+        },
+        "monotite": {
+            "title": "Monotite",
+            "description": "Used to unlock Potentials and Limit Break items at the Item Lab."
+        },
+        "photonchunk": {
+            "title": "Photon Chunk",
+            "description": "Used to Limit Break items at the Item Lab."
+        },
+        "photonquartz": {
+            "title": "Photon Quartz",
+            "description": "Used to create Multi-Weapons at the Item Lab."
+        },
+        "photonscale": {
+            "title": "Photon Scale",
+            "description": "Used in Capsule exchange at the Item Lab."
+        },
+        "tetracite": {
+            "title": "Tetracite",
+            "description": "Used to unlock Potentials at the Item Lab."
+        },
+        "trinite": {
+            "title": "Trinite",
+            "description": "Used to unlock Potentials and Limit Break items at the Item Lab."
+        },
+        "randomite": {
+            "title": "Randomite",
+            "description": "You can collect many different types of minerals at once by breaking Randomite."
+        },
+        "pentalite": {
+            "title": "Pentrite",
+            "description": "Used to unlock Potentials and Limit Break items at the Item Lab."
+        },
+        "blizzardium": {
+            "title": "Blizzardium",
+            "description": "Rare ore found in the rocky regions of Kvaria.\nCan be traded for materials at the Item Lab."
+        },
+        "hexakite": {
+            "title": "Hexakite",
+            "description": "Used to unlock Potentials and Limit Break items at the Item Lab."
+        },
+        "inferium": {
+            "title": "Inferium",
+            "description": "Rare ore found in the rocky regions of Stia.\nCan be traded for materials at the Item Lab."
+        }
+    },
+    "food": {
+        "aelio_apple": "Nourishing Aelio Apple",
+        "aelio_banana": "Healthy Aelio Banana",
+        "aelio_clam": "Nourishing Aelio Clam",
+        "aelio_crab": "Sharp Aelio Crab",
+        "aelio_herb": "Nourishing Aelio Herb",
+        "aelio_lobster": "Healthy Aelio Lobster",
+        "aelio_mushroom": "Refreshing Aelio Mushroom",
+        "aelio_peach": "Refreshing Aelio Peach",
+        "aelio_pear": "Sharp Aelio Pear",
+        "aelio_tomato": "Sharp Aelio Tomato",
+        "aelio_turbanshell": "Refreshing Aelio Snail",
+        "aelio_turnip": "Healthy Aelio Turnip",
+
+        "retem_cauliflower": "Healthy Retem Cauliflower",
+        "retem_cherries": "Nourishing Retem Cherries",
+        "retem_cranberries": "Refreshing Retem Cranberries",
+        "retem_eggplant": "Nourishing Retem Eggplant",
+        "retem_carambola": "Sharp Retem Star Fruit",
+        "retem_hermitcrab": "Healthy Retem Hermit Crab",
+        "retem_mango": "Refreshing Retem Mango",
+        "retem_mushroom": "Sharp Retem Mushroom",
+        "retem_scallop": "Nourishing Retem Scallop",
+        "retem_seaslug": "Refreshing Retem Sea Slug",
+        "retem_strawberry": "Healthy Retem Strawberry",
+        "retem_urchin": "Sharp Retem Sea Urchin",
+
+        "kvaris_akebia": "Healthy Kvaris Akebia",
+        "kvaris_cabbage": "Refreshing Kvaris Napa",
+        "kvaris_carrot": "Nourishing Kvaris Carrot",
+        "kvaris_crayfish": "Healthy Kvaris Lobster",
+        "kvaris_guava": "Sharp Kvaris Guava",
+        "kvaris_mushroom": "Sharp Kvaris Mushroom",
+        "kvaris_octopus": "Refreshing Kvaris Octopus",
+        "kvaris_onion": "Healthy Kvaris Onion",
+        "kvaris_persimmon": "Nourishing Kvaris Ackee",
+        "kvaris_persimmonnotable": "Notable Kvaris Ackee",
+        "kvaris_plum": "Refreshing Kvaris Plum",
+        "kvaris_snail": "Nourishing Kvaris Sea Snail",
+        "kvaris_squid": "Sharp Kvaris Squid",
+        "kvaris_squidnotable": "Notable Kvaris Squid",
+
+        "stia_apple": "Refreshing Stia Apple",
+        "stia_banana": "Nourishing Stia Banana",
+        "stia_cabbage": "Healthy Stia Napa",
+        "stia_carambola": "Famed Stia Star Fruit",
+        "stia_cauliflower": "Sharp Stia Cauliflower",
+        "stia_crab": "Famed Stia Crab",
+        "stia_herb": "Nourishing Stia Herb",
+        "stia_hermitcrab": "Nourishing Stia Hermit Crab",
+        "stia_mango": "Sharp Stia Mango",
+        "stia_mushroom": "Famed Stia Mushroom",
+        "stia_octopus": "Sharp Stia Octopus",
+        "stia_plum": "Healthy Stia Plum",
+        "stia_seaslug": "Refreshing Stia Sea Slug",
+        "stia_tomato": "Refreshing Stia Tomato",
+        "stia_turbanshell": "Healthy Stia Snail",
+        
+        "description": {
+            "prefix": {
+                "rich": "Reduces PP consumption",
+                "light": "Boosts PP recovery",
+                "crisp": "Boosts weakness damage",
+                "robust": "Boosts HP recovery",
+                "special": "Appears only with a certain conditions \nCan be exchanged for various rewards"
+            },
+            "type": {
+                "fruit": "Boosts PP",
+                "seafood": "Boosts HP",
+                "vegetable": "Boosts damage resistance"
+            }
+        }
+    },
+    "container": {
+        "red": {
+            "title": "Item Container [Red]",
+            "description": "Contains very valuable items like Meseta, Star Gems, Units, etc.. Each container can only be broken once per account."
+        },
+        "invisible": {
+            "title": "Invisible Boxes",
+            "description": "Rare is characterized by light particles around the box. These boxes have a high probability of containing valuable items."
+        }
+    },
+    "other": {
+        "alphareactor": {
+            "title": "Alpha Reactor",
+            "description": "Can be converted to 3500 N-Meseta. \n14 Alpha Reactors will spawn in various locations in the Central Aelio every day."
+        },
+        "snoal": {
+            "title": "Snowks",
+            "description": "Can be converted to 3000 N-Meseta. \n10 Snowks will spawn in Central Kvaris every day."
+        },
+        "datapod": {
+            "title": "Datapod",
+            "description": "Message Packs contain messages from the residents of Halpha. Some also contain items.",
+            "hint": "Press the left mouse button on marker to copy message"
+        },
+        "stellarseed": {
+            "title": "Stellar Seed",
+            "description": "Can be converted to 2000 N-Meseta. \n10 Stellar Fragments will spawn in West Retem every day."
+        },
+        "veteran": {
+            "title": "Veteran",
+            "description": "\"Battle-Hardened\" enemies that spawn at fixed locations in Exploration Sections. Also known as \"Dread\" enemies or \"Veterans\"."
+        },
+        "stellargrace": {
+            "title": "Stellar Grace",
+            "description": "Stellar Graces are part of the \"Stellar Grace Recovery Operation\" World Trial. The objective of the World Trial is to gather all the pyramidal containers known as Stellar Graces hidden in each Exploration Section."
+        },
+        "musicplace": {
+            "title": "BGM Easter Egg",
+            "description": "Places that play music from older games of the Phantasy Star franchise.",
+            "hint": "Press the left mouse button on marker to copy the music title"
+        },
+        "mischief": {
+            "title": "Mischief Symbol",
+            "description": "During the season's event on Halpha, you can find these holographic symbols."
+        }
+    },
+    "nothing": "Select item"
+}

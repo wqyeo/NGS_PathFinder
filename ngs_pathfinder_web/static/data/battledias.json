@@ -1,0 +1,346 @@
+[
+    {
+        "id": "aelioTroopers",
+        "type": "yellow",
+        "lat":-1481.75, "lng":34.5,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 1081,
+                "enemyLv": 16,
+                "rewards": [
+                    {
+                        "item": "rewards:value.experience",
+                        "count": 39845
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_sword",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_armor",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.silver_prim_sword",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.silver_prim_armor",
+                        "count": "+20"
+                    }
+                ]
+            },
+            {
+                "minBP": 1363,
+                "enemyLv": 35,
+                "rewards": [
+                    {
+                        "item": "rewards:value.experience",
+                        "count": 118446
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_sword",
+                        "count": "+30"
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_armor",
+                        "count": "+30"
+                    },
+                    {
+                        "item": "rewards:item.domina_augments",
+                        "count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "aelioDevastators",
+        "type": "purple",
+        "lat":-1219.125, "lng":420.75,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 1363,
+                "enemyLv": 24,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            },
+            {
+                "minBP": 1957,
+                "enemyLv": 44,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            },
+            {
+                "minBP": 2972,
+                "enemyLv": 69,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "retemTroopers",
+        "type": "yellow",
+        "lat":-1515.5, "lng":1811,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 1474,
+                "enemyLv": 25,
+                "rewards": [
+                    {
+                        "item": "rewards:value.experience",
+                        "count": 72829
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_sword",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_armor",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.mastery_augments",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "minBP": 2049,
+                "enemyLv": 45,
+                "rewards": [
+                    {
+                        "item": "rewards:value.experience",
+                        "count": 162243
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_sword",
+                        "count": "+30"
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_armor",
+                        "count": "+30"
+                    },
+                    {
+                        "item": "rewards:item.domina_augments",
+                        "count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "retemDevastators",
+        "type": "purple",
+        "lat":-1804.25, "lng":1490.25,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 1813,
+                "enemyLv": 39,
+                "rewards": [
+                    {
+                        "item": "rewards:item.relik_series"
+                    },
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            },
+            {
+                "minBP": 2114,
+                "enemyLv": 49,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "items:mineral.photonscale.title"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            },
+            {
+                "minBP": 2972,
+                "enemyLv": 69,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "items:mineral.photonscale.title"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "kvarisTroopers",
+        "type": "yellow",
+        "lat":-187, "lng":449.5,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 2416,
+                "enemyLv": 55,
+                "rewards": [
+                    {
+                        "item": "rewards:value.experience",
+                        "count": 0
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_sword",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_armor",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.decold_augments",
+                        "count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "kvarisDevastators",
+        "type": "purple",
+        "lat":-309, "lng":365,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 1813,
+                "enemyLv": 39,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            },
+            {
+                "minBP": 2972,
+                "enemyLv": 69,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "stiaTroopers",
+        "type": "yellow",
+        "lat":-561.5, "lng":1603.5,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 2878,
+                "enemyLv": 65,
+                "rewards": [
+                    {
+                        "item": "rewards:value.experience",
+                        "count": 0
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_sword",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.gold_prim_armor",
+                        "count": "+20"
+                    },
+                    {
+                        "item": "rewards:item.arm_augments",
+                        "count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "stiaDevastators",
+        "type": "purple",
+        "lat":-505.125, "lng":1634.875,
+        "players": 4,
+        "ranks": [
+            {
+                "minBP": 3227,
+                "enemyLv": 74,
+                "rewards": [
+                    {
+                        "item": "rewards:item.gigas_augments"
+                    },
+                    {
+                        "item": "rewards:item.soul_augments"
+                    },
+                    {
+                        "item": "rewards:item.special_scratch_ticket"
+                    }
+                ]
+            }
+        ]
+    }
+]

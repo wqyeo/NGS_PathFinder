@@ -1,0 +1,85 @@
+{
+    "page_title": "PSO2NGSインタラクティブ・マップ",
+    "navbar": {
+        "donate": "寄付",
+        "mapLegend": "マップの凡例",
+        "options": "オプション"
+    },
+    "legendMenu": {
+        "categories": {
+            "landmarks": "ランドマーク",
+            "minerals": "鉱石",
+            "food": "フード",
+            "containers": "コンテナ",
+            "other": "その他"
+        }
+    },
+    "optionsMenu": {
+        "categories": {
+            "languages": "寄付",
+            "mapping": "マッピング",
+            "reset": "リセット",
+            "about": "アプリケーションについて"
+        },
+        "items": {
+            "languages": {
+                "en-US": "英語",
+                "ja-JP": "日本語",
+                "en-JP": "英語 (ファン)",
+                "ru-RU": "ロシア語",
+                "ko-KR": "韓国語"
+            },
+            "mapping": {
+                "discord": "Discordに参加する",
+                "translate": "翻訳のお手伝い",
+                "start": "マッピングモード"
+            },
+            "reset": {
+                "lang": "言語をリセット",
+                "visibility": "マーカーをリセット",
+                "checked": "チェックをリセット",
+                "everything": "すべてリセット"
+            },
+            "about": {
+                "author": "著者",
+                "contributers": "貢献しました",
+                "segaCopyright": "このアプリに含まれるすべての素材の権利は、権利者（SEGA）に帰属し、情報提供のみを目的としています。"
+            }
+        }
+    },
+    "map": {
+        "foodType": {
+            "fruit": "果物",
+            "seafood": "海鮮",
+            "vegetable": "野菜"
+        },
+        "stellarGraceType": {
+            "gold": "金色の",
+            "silver": "白銀の",
+            "default": "共通の"
+        },
+        "type": "タイプ",
+        "rank": "RANK",
+        "maxPlayers": "人数",
+        "requiredBP": "必要戦闘力",
+        "recommendedBP": "推奨戦闘力",
+        "enemyLv": "出現エネミー",
+        "subMissions": "サイドミッション",
+        "clearCondition": "メインミッション",
+        "failCondition": "失敗条件",
+        "description": "説明",
+        "placedBy": "投稿者",
+        "rewards": {
+            "possible": "可能な報酬",
+            "guaranteed": "報酬",
+            "firstTime": "初回クリア報酬"
+        },
+        "enemyTypes": {
+            "dread": "老練の",
+            "gigantix": "絶望の",
+            "ancient": "遠世の"
+        },
+        "checkHint": "マーカー上でマウスの左ボタンを押して、チェックマークを付けます",
+        "availableChallengeRank": "このトレイニアで利用可能なチャレンジランク"
+    }
+}

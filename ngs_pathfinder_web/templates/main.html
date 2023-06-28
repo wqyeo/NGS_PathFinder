@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NGS Pathfinding Map</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="{% static 'css/mapPage.css' %}" />
+</head>
+<body>
+    <div id="map"></div>
+
+
+    <script>
+        const STATIC_URL = "{% static '' %}";
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="{% static 'js/mapLoader.js' %}"></script>
+</body>
+</html>

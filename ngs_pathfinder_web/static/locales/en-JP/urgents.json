@@ -1,0 +1,77 @@
+{
+    "limited": {
+        "title": "Drill: Unidentified Region A16",
+        "description": "Earn Quest Points during the time limit",
+        "clearCondition": "This is an unidentified practice drill discovered while analyzing battle data. Who created it and why are unknown, but the emphasis is on suppressing enemies quickly. Take this evaluation exam based on a test plan if you think you've got what it takes. \n――――――――――――――――――――――――――――――――――――――\n Quest Points reduced when the level disparity between you and the enemies is 7 or greater."
+    },
+    "seasonal": {
+        "title": "seasonal.title",
+        "description": "seasonal.description",
+        "clearCondition": "seasonal.clearCondition"
+    },
+    "pettasVera": {
+        "title": "Subdue the Overseer-type DOLL",
+        "description": "Powerful space-time fluctuations have been on the Alto Lani Plateau in Northern Aelio. Based on Past data, the Pedas Vera is expected to appear. All ARKS, head for the area & eliminate this threat.",
+        "clearCondition": "Defeat the target enemy"
+    },
+    "nexVera": {
+        "title": "Nex Vera Subjugation",
+        "description": "Powerful space-time fluctuations have been detected in the Resol Forest. Based on past data, the Battlefield Overseer-type DOLL, the \"Nex Vera\", is expected to appear. All ARKS, head for the area & eliminate this threat.",
+        "clearCondition": "Defeat the Nex Vera!"
+    },
+    "miningRigDefenceAelio": {
+        "title": "Mining Rig Defense: Aelio",
+        "description": "We've received a distress call from a mining unit operating on Halpha Grasslands. The high number of enemy readings nearby indicates they've come under a large-scale attack. All ARKS are to intercept and defend the Resource Mining Rigs.",
+        "clearCondition": "Defend the Resource Mining Rigs!"
+    },
+    "darkFalzInterception": {
+        "title": "Dark Falz Interception Battle",
+        "description": "",
+        "clearCondition": "Intercept Dark Falz!"
+    },
+    "dustylVera": {
+        "title": "Snidael Vera Subjugation",
+        "description": "Powerful space-time fluctuations have been at Morava Canyon in Northern Retem. Based on past data, the Snidael Vera is expected to appear. All ARKS, head for the area & eliminate this threat.",
+        "clearCondition": "Defeat the target enemy"
+    },
+    "renusVera": {
+        "title": "Lenus Vera Subjugation",
+        "description": "Powerful space-time fluctuations have been detected in Central Retem. Based on past data, the Battlefield Overseer-type DOLL, the \"Lenus Vera\", is expected to appear. All ARKS, head for the area & eliminate this threat.",
+        "clearCondition": "Defeat Lenus Vera!"
+    },
+    "miningRigDefenceRetem": {
+        "title": "Mining Rig Defense: Retem",
+        "description": "",
+        "clearCondition": "Defend the Resource Mining Rigs!"
+    },
+    "crocodylisVera": {
+        "title": "",
+        "description": "",
+        "clearCondition": ""
+    },
+    "amsVera": {
+        "title": "",
+        "description": "",
+        "clearCondition": ""
+    },
+    "miningRigDefenceKvaris": {
+        "title": "Mining Rig Defense: Kvaris",
+        "description": "",
+        "clearCondition": "Defend the Resource Mining Rigs!"
+    },
+    "doldorisVera": {
+        "title": "doldorisVera.title",
+        "description": "doldorisVera.description",
+        "clearCondition": "doldorisVera.clearCondition"
+    },
+    "nilsVera": {
+        "title": "nilsVera.title",
+        "description": "nilsVera.description",
+        "clearCondition": "nilsVera.clearCondition"
+    },
+    "theBattleOfHalphiaLake": {
+        "title": "theBattleOfHalphiaLake.title",
+        "description": "theBattleOfHalphiaLake.description",
+        "clearCondition": "theBattleOfHalphiaLake.clearCondition"
+    }
+}

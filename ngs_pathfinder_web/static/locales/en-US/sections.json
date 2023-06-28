@@ -1,0 +1,55 @@
+{
+    "sections": {
+        "aelio": {
+            "centralAelio": "Central Aelio",
+            "centralCity": "Central City",
+            "halphiaLake": "Halphia Lake",
+            "vanfordLaboratoryRuins": "Vanford Laboratory Ruins",
+            "mtMagnus": "Mt. Magnus",
+            "northAelio": "North Aelio",
+            "resolForest": "Resol Forest",
+            "southAelio": "South Aelio",
+            "westAelio": "West Aelio"
+        },
+        "retem": {
+            "centralRetem": "Central Retem",
+            "rwhMaqead": "Rwh Maqead",
+            "maqeadLowerLevel": "Maqead Lower Level",
+            "northRetem": "North Retem",
+            "retemAlnothe": "Retem Alnothe",
+            "retemCity": "Retem City",
+            "southRetem": "South Retem",
+            "westRetem": "West Retem"
+        },
+        "kvaris": {
+            "kvarisCamp": "Kvaris Camp",
+            "centralKvaris": "Central Kvaris",
+            "southKvaris": "South Kvaris",
+            "northKvaris": "North Kvaris",
+            "westKvaris": "West Kvaris",
+            "rayjordGorge": "Rayjord Gorge",
+            "beluganaRuins": "Belugana Ruins",
+            "lostCentral": "Lost Central"
+        },
+        "stia": {
+            "stiaCamp": "Stia Camp",
+            "stiaOutskirts": "Stia Outskirts",
+            "mediolaOuterArea1": "Mediola Outer Area 1",
+            "mediolaOuterArea2": "Mediola Outer Area 2",
+            "dextBase": "Dext Base",
+            "dreisenPlant": "Dreisen Plant",
+            "neusenPlant": "Neusen Plant"
+        }
+    },
+    "type": {
+        "lobby": "Lobby Area",
+        "gathering": "Gathering Area",
+        "combat": "Combat Area"
+    },
+    "regions": {
+        "aelio": "Aelio",
+        "retem": "Retem",
+        "kvaris": "Kvaris",
+        "stia": "Stia"
+    }
+}

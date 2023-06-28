@@ -1,0 +1,22 @@
+{
+    "regular": {
+        "aelioTroopers": "Aelio Troopers",
+        "aelioDevastators": "Aelio Devastators",
+        "retemTroopers": "Retem Troopers",
+        "retemDevastators": "Retem Devastators",
+        "kvarisTroopers": "Kvaris Troopers",
+        "kvarisDevastators": "Kvaris Devastators",
+        "stiaTroopers": "Stia Troopers",
+        "stiaDevastators": "Stia Devastators"
+    },
+    "type": {
+        "yellow": {
+            "clearCondition": "Defeat the enemies",
+            "description": "This is a Battledia, where ARKS defenders can test their combat abilities. Make use of your battle skills to defeat all of the enemies."
+        },
+        "purple": {
+            "clearCondition": "Defeat the enemies",
+            "description": "This is a Battledia, where ARKS defenders can test their combat abilities. Make use of your battle skills to defeat all of the enemies."
+        }
+    }
+}

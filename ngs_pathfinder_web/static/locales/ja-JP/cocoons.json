@@ -1,0 +1,186 @@
+{
+    "firstStep": {
+        "title": "ファーストステップ",
+        "description": "ここは、アークス各人の基本能力を試すトレイニアである。指示に従い、新たなアクションを習得しつつ、目標地点に到達せよ。",
+        "clearCondition": "ゴールへ到達せよ！",
+        "subMission1": "5:00 未満でクリア",
+        "subMission2": "10:00 未満でクリア",
+        "subMission3": "ポイントキューブを10個取得してクリア"
+    },
+    "enchancedEnemy": {
+        "title": "エンハンスドエネミー",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、強化された“ペダス・ソード”を撃破せよ。",
+        "clearCondition": "ペダス・ソードを倒せ！",
+        "subMission1": "0:55 未満でクリア",
+        "subMission2": "戦闘不能回数5回未満でクリア",
+        "subMission3": "ダメージ回数10回未満でクリア"
+    },
+    "swiftJump": {
+        "title": "スウィフトジャンプ",
+        "description": "“ここは、アークス各人の跳躍能力を試すトレイニアである。“ジャンプ”、“２段ジャンプ”を用いて、目標地点に到達せよ。",
+        "clearCondition": "ゴールへ到達せよ！",
+        "subMission1": "1:25 未満でクリア",
+        "subMission2": "落下回数5回未満でクリア",
+        "subMission3": "グライドの使用5回未満でクリア"
+    },
+    "wildRush": {
+        "title": "ワイルドラッシュ",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、全てのエネミーを撃破せよ。",
+        "clearCondition": "ロックベアを倒せ！",
+        "subMission1": "1:45 未満でクリア",
+        "subMission2": "戦闘不能回数5回未満でクリア",
+        "subMission3": "ポイントキューブを5個取得してクリア"
+    },
+    "testFlight": {
+        "title": "テストフライト",
+        "description": "ここは、アークス各人の飛翔能力を試すトレイニアである。“フォトングライド”を用いて、目標地点に到達せよ。",
+        "clearCondition": "ゴールへ到達せよ！",
+        "subMission1": "1:15 未満でクリア",
+        "subMission2": "落下回数5回未満でクリア",
+        "subMission3": "ポイントキューブを5個取得してクリア"
+    },
+    "roaringRush": {
+        "title": "ローリングラッシュ",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“ゴロロクス”を撃破せよ。",
+        "clearCondition": "ゴロロクスを倒せ！",
+        "subMission1": "6:30 未満でクリア",
+        "subMission2": "戦闘不能回数2回未満でクリア",
+        "subMission3": "ダメージ回数15回未満でクリア"
+    },
+    "fleetingFight": {
+        "title": "セツナノイッセン",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“ブジン”を撃破せよ。",
+        "clearCondition": "ブジンを倒せ！",
+        "subMission1": "5:00 未満でクリア",
+        "subMission2": "戦闘不能回数5回未満でクリア",
+        "subMission3": "ダメージ回数20回未満でクリア"
+    },
+    "runway": {
+        "title": "ローンウェイ",
+        "description": "ここは、アークス各人の走破能力を試すトレイニアである。“フォトンダッシュ”を用いて、目標地点に到達せよ。",
+        "clearCondition": "ゴールへ到達せよ！",
+        "subMission1": "1:55未満でクリア",
+        "subMission2": "2:35未満でクリア",
+        "subMission3": "ポイントキューブを5個取得してクリア"
+    },
+    "vanishingPath": {
+        "title": "バニシングウェイ",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。“バニッシュブロック”に注意を払いつつ、全てのエネミーを撃破せよ。",
+        "clearCondition": "フォートス・レーザーを倒せ！",
+        "subMission1": "8:00未満でクリア",
+        "subMission2": "ポイントキューブを5個取得してクリア",
+        "subMission3": "落下回数3回未満でクリア"
+    },
+    "narrowCage": {
+        "title": "ナローケージ",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、全てのエネミーを撃破せよ。",
+        "clearCondition": "全てのエネミーを撃破せよ。",
+        "subMission1": "ダメージ回数20回未満でクリア",
+        "subMission2": "戦闘不能回数3回未満でクリア",
+        "subMission3": "6:00未満でクリア"
+    },
+    "buddyAttack": {
+        "title": "バディアタック",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。“ドローム”の支援を受けつつ、全てのエネミーを撃破せよ。",
+        "clearCondition": "全てのエネミーを撃破せよ。",
+        "subMission1": "ドロームの追従レベルがLv.3の状態を維持してクリア",
+        "subMission2": "戦闘不能回数3回未満でクリア",
+        "subMission3": "ダメージ回数20回未満でクリア"
+    },
+    "dynaAssault": {
+        "title": "ダイナアサルト",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“リゼントス”を撃破せよ。",
+        "clearCondition": "エネミーを倒せ！",
+        "subMission1": "2:35未満でクリア",
+        "subMission2": "戦闘不能回数5回未満でクリア",
+        "subMission3": "ダメージ回数10回未満でクリア"
+    },
+    "parkourMaster": {
+        "title": "パルクールマスター",
+        "description": "ここは、アークス各人の跳躍能力を試すトレイニアである。“ジャンプ”、“２段ジャンプ”、“ウォールキック”を用いて、目標地点に到達せよ。",
+        "clearCondition": "ゴールに到達しろ！",
+        "subMission1": "グライドの使用6回未満でクリア",
+        "subMission2": "ポイントキューブを10個取得してクリア",
+        "subMission3": "2:20未満でクリア"
+    },
+    "runway2": {
+        "title": "ローンウェイⅡ",
+        "description": "ここは、アークス各人の走破能力を試すトレイニアである。“フォトンダッシュ”を用いて、目標地点に到達せよ。",
+        "clearCondition": "エネミーを倒せ！",
+        "subMission1": "4:35未満でクリア",
+        "subMission2": "5:15未満でクリア",
+        "subMission3": "ポイントキューブを4取得してクリア"
+    },
+    "crazyTail": {
+        "title": "クレイジーテイル",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“パンゴラン”を撃破せよ。",
+        "clearCondition": "パンゴラン倒せ！",
+        "subMission1": "3:30未満でクリア",
+        "subMission2": "900以上のダメージを2回以上与えてクリア",
+        "subMission3": "ダメージ回数7回未満でクリア"
+    },
+    "slopeTile": {
+        "title": "スロープスタイル",
+        "description": "ここは、アークス各人の走破能力を試すトレイニアである。“フローティングボード”を用いて、目標地点に到達せよ。",
+        "clearCondition": "エネミーを倒せ！",
+        "subMission1": "2:20未満でクリア",
+        "subMission2": "グライドの使用2回未満でクリア",
+        "subMission3": "ポイントキューブを40個取得してクリア"
+    },
+    "wildAvalanche": {
+        "title": "ワイルドアバランチ",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“アイスバンサー”、“アイスバンシー”を撃破せよ。",
+        "clearCondition": "エネミーを2体倒す",
+        "subMission1": "3:00未満でクリア",
+        "subMission2": "ダメージ回数12回未満でクリア",
+        "subMission3": "レスタサインの使用3回未満でクリア"
+    },
+    "vanishingPath2": {
+        "title": "バニシングウェイⅡ",
+        "description": "ここは、アークス各人の走破能力を試すトレイニアである。“フォトンダッシュ”を用いて、目標地点に到達せよ。",
+        "clearCondition": "ゴールへ到達せよ！",
+        "subMission1": "2:00未満でクリア",
+        "subMission2": "ポイントキューブを6個取得してクリア",
+        "subMission3": "グライドの使用3回未満でクリア"
+    },
+    "clockworkJail": {
+        "title": "クロックワークジェイル",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、全てのエネミーを撃破せよ。",
+        "clearCondition": "マーカライドを倒せ！",
+        "subMission1": "3:00未満でクリア",
+        "subMission2": "戦闘不能回数1回未満でクリア",
+        "subMission3": "ダメージ回数10回未満でクリア"
+    },
+    "holibleFlapping": {
+        "title": "ホリブルフラッピング",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“マーカライド”を撃破せよ。",
+        "clearCondition": "エネミーを29体倒す",
+        "subMission1": "5:00未満でクリア",
+        "subMission2": "戦闘不能回数1回未満でクリア",
+        "subMission3": "ダメージ回数12回未満でクリア"
+    },
+    "quarterstaff": {
+        "title": "クォータースタッフ",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“エンゴウク”を撃破せよ。",
+        "clearCondition": "エンゴウクを倒せ！",
+        "subMission1": "3:00未満でクリア",
+        "subMission2": "900以上のダメージを2回以上与えてクリア",
+        "subMission3": "ダメージ回数7回未満でクリア"
+    },
+    "faceTheDarkness": {
+        "title": "フェイスザダークネス",
+        "description": "ここは、アークス各人の戦闘能力を試すトレイニアである。戦闘技術を駆使して、“ダークレムナス”を撃破せよ。",
+        "clearCondition": "ダークレムナスを倒せ！",
+        "subMission1": "3:00未満でクリア",
+        "subMission2": "900以上のダメージを2回以上与えてクリア",
+        "subMission3": "ダメージ回数7回未満でクリア"
+    },
+    "helicalLine": {
+        "title": "ヘリカルライン",
+        "description": "ここは、アークス各人の走破能力を試すトレイニアである。さまざまな運動技術を用いて、目標地点に到達せよ。",
+        "clearCondition": "ゴールへ到達せよ！",
+        "subMission1": "ポイントキューブを10個取得してクリア",
+        "subMission2": "グライドの使用7回未満でクリア",
+        "subMission3": "3:00未満でクリア"
+    }
+}

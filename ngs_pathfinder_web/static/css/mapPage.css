@@ -1,0 +1,44 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1a4379;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+    background-color: #1a4379;
+}
+
+
+/*Cursors*/
+* {
+    cursor: url('../images/cursors/default.png') 0 0, auto;
+}
+
+button:hover,
+button:active,
+button:focus,
+.leaflet-popup-close-button:hover,
+.leaflet-popup-close-button:active,
+.leaflet-popup-close-button:focus {
+    cursor: url('../images/cursors/active.png') 0 0, auto !important;
+}
+
+.leaflet-disabled,
+*:disabled {
+    cursor: url('../images/cursors/disabled.png') 0 0, auto !important;
+}
+
+.leaflet-grab,
+.leaflet-dragging,
+.leaflet-grab {
+    cursor: url('../images/cursors/default.png') 0 0, auto !important;
+}
+
+.leaflet-marker-icon:hover,
+.leaflet-marker-icon:active {
+    cursor: url('../images/cursors/active.png') 0 0, auto !important;
+}

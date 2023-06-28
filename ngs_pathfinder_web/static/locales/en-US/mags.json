@@ -1,0 +1,16 @@
+{   
+    "type": {
+        "invincible": "Invincible Regional Mag",
+        "priceless": "Prosperous Regional Mag",
+        "expert": "Skillful Regional Mag"
+    },
+    "boostType": {
+        "social": "Social Boost",
+        "personal": "Personal Boost"
+    },
+    "boosts": {
+        "rdr": "Rare Drop Rate",
+        "exp": "EXP Earned",
+        "attack": "Attack Potency"
+    }
+}

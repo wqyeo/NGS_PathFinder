@@ -1,0 +1,176 @@
+[
+    {
+        "id": "firstStep",
+        "lat":-1306, "lng":681.75,
+        "players": 1,
+        "minBP": 800,
+        "enemyLv": 1
+    },
+    {
+        "id": "enchancedEnemy",
+        "lat":-1488, "lng":432.25,
+        "players": 4,
+        "minBP": 894,
+        "enemyLv": 5
+    },
+    {
+        "id": "swiftJump",
+        "lat":-1121.5, "lng":406.5,
+        "players": 4,
+        "minBP": 916,
+        "enemyLv": 6
+    },
+    {
+        "id": "wildRush",
+        "lat":-1882.25, "lng":826.25,
+        "players": 4,
+        "minBP": 894,
+        "enemyLv": 5,
+        "challenge": true
+    },
+    {
+        "id": "testFlight",
+        "lat":-1173.25, "lng":33,
+        "players": 4,
+        "minBP": 835,
+        "enemyLv": 3
+    },
+    {
+        "id": "roaringRush",
+        "lat":-1894.5, "lng":387.5,
+        "players": 4,
+        "minBP": 1184,
+        "enemyLv": 15,
+        "challenge": true
+    },
+    {
+        "id": "fleetingFight",
+        "lat":-1219.25, "lng":976.75,
+        "players": 4,
+        "minBP": 1184,
+        "enemyLv": 15,
+        "challenge": true
+    },
+    {
+        "id": "runway",
+        "lat":-1723.875, "lng":877.125,
+        "players": 4,
+        "minBP": 1009,
+        "enemyLv": 10
+    },
+    {
+        "id": "vanishingPath",
+        "lat":-1192.375, "lng":1288.375,
+        "players": 4,
+        "minBP": 1562,
+        "enemyLv": 25,
+        "challenge": true
+    },
+    {
+        "id": "narrowCage",
+        "lat":-1223, "lng":1674.125,
+        "players": 4,
+        "minBP": 1396,
+        "enemyLv": 21,
+        "challenge": true
+    },
+    {
+        "id": "buddyAttack",
+        "lat":-1219, "lng":1871.375,
+        "players": 4,
+        "minBP": 1396,
+        "enemyLv": 21,
+        "challenge": true
+    },
+    {
+        "id": "dynaAssault",
+        "lat":-1501.25, "lng":1527.375,
+        "players": 4,
+        "minBP": 1223,
+        "enemyLv": 17,
+        "challenge": true
+    },
+    {
+        "id": "parkourMaster",
+        "lat":-1969, "lng":1127,
+        "players": 4,
+        "minBP": 1223,
+        "enemyLv": 17
+    },
+    {
+        "id": "runway2",
+        "lat":-1759.25, "lng":1787.5,
+        "players": 4,
+        "minBP": 1223,
+        "enemyLv": 17
+    },
+    {
+        "id": "holibleFlapping",
+        "lat":-717, "lng":72,
+        "players": 4,
+        "minBP": 2082,
+        "enemyLv": 44,
+        "challenge": true
+    },
+    {
+        "id": "crazyTail",
+        "lat":-857.5, "lng":832.5,
+        "players": 4,
+        "minBP": 2018,
+        "enemyLv": 42,
+        "challenge": true
+    },
+    {
+        "id": "slopeTile",
+        "lat":-694.5, "lng":622,
+        "players": 4,
+        "minBP": 2018,
+        "enemyLv": 42
+    },
+    {
+        "id": "clockworkJail",
+        "lat":-557.5, "lng":348.75,
+        "players": 4,
+        "minBP": 2082,
+        "enemyLv": 44,
+        "challenge": true
+    },
+    {
+        "id": "wildAvalanche",
+        "lat":-488.25, "lng":629.75,
+        "players": 4,
+        "minBP": 2181,
+        "enemyLv": 47,
+        "challenge": true
+    },
+    {
+        "id": "vanishingPath2",
+        "lat":-368.5, "lng":501,
+        "players": 4,
+        "minBP": 2181,
+        "enemyLv": 47
+    },
+    {
+        "id": "quarterstaff",
+        "lat":-383.75, "lng":1387.25,
+        "players": 4,
+        "minBP": 2924,
+        "enemyLv": 64,
+        "challenge": true
+    },
+    {
+        "id": "faceTheDarkness",
+        "lat":-593.875, "lng":1517,
+        "players": 4,
+        "minBP": 2878,
+        "enemyLv": 63,
+        "challenge": true
+    },
+    {
+        "id": "helicalLine",
+        "lat":-416.875, "lng":1562.375,
+        "players": 4,
+        "minBP": 1223,
+        "enemyLv": 60
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "altersRush",
+        "lat":-1084.5, "lng":171.5,
+        "players": 4,
+        "minBP": 1184,
+        "enemyLv": 15,
+        "challenge": true
+    },
+    {
+        "id": "greatWall",
+        "lat":-1389, "lng":885,
+        "players": 4,
+        "minBP": 1184,
+        "enemyLv": 15,
+        "challenge": true
+    },
+    {
+        "id": "aeroRunner",
+        "lat":-1911.75, "lng":919.75,
+        "players": 4,
+        "minBP": 1184,
+        "enemyLv": 15
+    },
+    {
+        "id": "dollsBurrow",
+        "lat":-957.5, "lng":1965,
+        "players": 4,
+        "minBP": 1592,
+        "enemyLv": 30,
+        "challenge": true
+    },
+    {
+        "id": "deepWell",
+        "lat":-708, "lng":367.5,
+        "players": 4,
+        "minBP": 2506,
+        "enemyLv": 55,
+        "challenge": true
+    },
+    {
+        "id": "brokenWorld",
+        "lat":-891.125, "lng":1394.625,
+        "players": 4,
+        "minBP": 2972,
+        "enemyLv": 65,
+        "challenge": true
+    }
+    
+]

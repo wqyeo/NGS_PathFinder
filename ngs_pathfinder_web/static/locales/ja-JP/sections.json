@@ -1,0 +1,55 @@
+{
+    "sections": {
+        "aelio": {
+            "centralAelio": "中央エアリオ",
+            "centralCity": "セントラルシテイ",
+            "halphiaLake": "ハルフィリア湖",
+            "vanfordLaboratoryRuins": "ヴァンフォード研究所跡",
+            "mtMagnus": "マグナス山",
+            "northAelio": "北エアリオ",
+            "resolForest": "レゾルの森",
+            "southAelio": "南エアリオ",
+            "westAelio": "西エアリオ"
+        },
+        "retem": {
+            "centralRetem": "中央リテム",
+            "rwhMaqead": "ルーフ・マクアド",
+            "maqeadLowerLevel": "マクアド下層",
+            "northRetem": "北リテム",
+            "retemAlnothe": "リテム・エルノザ",
+            "retemCity": "リテムシティ",
+            "southRetem": "南リテム",
+            "westRetem": "西リテム"
+        },
+        "kvaris": {
+            "kvarisCamp": "クヴァリスキャンプ",
+            "centralKvaris": "中央クヴァリス",
+            "southKvaris": "南クヴァリス",
+            "northKvaris": "北クヴァリス",
+            "westKvaris": "西クヴァリス",
+            "rayjordGorge": "レイヨルド峡江",
+            "beluganaRuins": "ベルガナ遺跡",
+            "lostCentral": "ロストセントラル"
+        },
+        "stia": {
+            "stiaCamp": "スティアキャンプ",
+            "stiaOutskirts": "スティア外縁部",
+            "mediolaOuterArea1": "メディオラ外郭第１区",
+            "mediolaOuterArea2": "メディオラ外郭第2区",
+            "dextBase": "デクストベース",
+            "dreisenPlant": "ドライゼンプラント",
+            "neusenPlant": "ノイゼンプラント"
+        }
+    },
+    "type": {
+        "lobby": "ロビーエリア",
+        "gathering": "探索セクション",
+        "combat": "戦闘セクション"
+    },
+    "regions": {
+        "aelio": "エアリオ",
+        "retem": "リテム",
+        "kvaris": "クヴァリス",
+        "stia": "スティア"
+    }
+}
