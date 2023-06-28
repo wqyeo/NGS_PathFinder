@@ -5,6 +5,10 @@
     <title>NGS Pathfinding Map</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="{% static 'css/mapPage.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/tooltip.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/general.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/popup.css' %}" />
 </head>
 <body>
     <div id="map"></div>
@@ -14,6 +18,10 @@
         const STATIC_URL = "{% static '' %}";
     </script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script src="{% static 'js/iconLoader.js' %}"></script>
     <script src="{% static 'js/mapLoader.js' %}"></script>
+
+    <script src="{% static 'js/markerLoaders/advTrainiaLoader.js' %}"></script>
 </body>
 </html>

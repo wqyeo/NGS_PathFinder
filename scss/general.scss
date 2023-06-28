@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "NGS Font";
+    src: url("./ngsfont.woff") format("woff");
+}
+
+$map-bg-color: rgb(26, 67, 121);
+$menu-color: rgba(22, 31, 44, 0.85);
+
+$navbar-button-default: rgba(26, 67, 121, 0.85);
+$navbar-button-hover: rgba(52, 98, 142, 0.85);
+$navbar-button-active: rgba(129, 122, 23, 0.85);
+$navbar-button-border-default: rgba(29, 33, 42, 0.85);
+$navbar-button-border-hover: rgba(54, 255, 255, 0.85);
+$navbar-button-border-active: rgba(129, 122, 23, 0.85);
+
+$window-header-color: rgb(40, 131, 211);
+$window-color: rgba(26, 39, 43, 0.85);
+$window-border-color: rgb(54, 255, 255);
+
+$window-button-default: rgba(34, 63, 94, 0.85);
+$window-button-hover: rgba(63, 95, 142, 0.85);
+$window-button-active: rgba(133, 91, 29, 0.85);
+$window-button-border-default: $window-button-default;
+$window-button-border-hover: rgba(48, 222, 254, 0.85);
+$window-button-border-active: rgba(223, 171, 6, 0.85);
+
+* {
+    font-family: "NGS Font";
+    user-select: none;
+    color: white;
+    $outline: 1px;
+    text-shadow: 0px $outline 0 rgb(0, 0, 0), 0px calc(0px - $outline) 0 rgb(0, 0, 0), $outline 0px 0 rgb(0, 0, 0), calc(0px - $outline) 0px 0 rgb(0, 0, 0), $outline $outline 0 rgb(0, 0, 0), $outline calc(0px - $outline) 0 rgb(0, 0, 0), calc(0px - $outline) $outline 0 rgb(0, 0, 0), calc(0px - $outline) calc(0px - $outline) 0 rgb(0, 0, 0);
+}
+
+body {
+    margin: 0px;
+}
+
+.leaflet-container {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+navbar {
+    z-index: 11;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    $inner-color: rgba(8, 25, 40, 0.75);
+
+    buttons {
+        background: $inner-color;
+        width: 882px;
+        height: 114px;
+        margin: -114px auto 0;
+        position: relative
+    }
+
+    buttons::before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent transparent $inner-color;
+        border-width: 0 0 114px 114px;
+        position: absolute;
+        top: 0;
+        left: -114px;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    }
+
+    buttons::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent transparent transparent $inner-color;
+        border-width: 114px 0 0 114px;
+        position: absolute;
+        top: 0;
+        right: -114px;
+        clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    }
+}
+
+container {
+    display: block;
+    $margin: 2.5%;
+    position: absolute;
+    top: 0;
+    height: calc(88% - 2px);
+    width: calc(100% - $margin * 2);
+    margin: $margin;
+}

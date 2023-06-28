@@ -1,0 +1,50 @@
+@import './general.scss';
+
+.leaflet-container {
+    background-color: $map-bg-color !important;
+}
+
+.leaflet-tooltip {
+    background-color: rgba(0, 0, 0, 0);
+    border: initial;
+    color: initial;
+    box-shadow: initial;
+    border-radius: initial;
+
+    &::before {
+        border-top-color: $window-border-color;
+        margin-bottom: -6px;
+    }
+}
+
+.leaflet-popup {
+    .leaflet-popup-content-wrapper {
+        background-color: rgba(0, 0, 0, 0);
+        border: initial;
+        color: initial;
+        box-shadow: initial;
+        border-radius: initial;
+
+        .leaflet-popup-content {
+            width: initial !important;
+            margin: -1px 19px;
+        }
+    }
+
+    .leaflet-popup-tip-container {
+        .leaflet-popup-tip {
+            background: $window-border-color;
+            color: initial;
+            box-shadow: initial;
+        }
+    }
+
+    .leaflet-popup-close-button {
+        display: none;
+    }
+}
+
+.leaflet-interactive {
+    cursor: pointer;
+    transition: fill-opacity ease .4s, stroke-opacity ease .4s;
+}

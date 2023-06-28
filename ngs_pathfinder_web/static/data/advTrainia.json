@@ -1,12 +1,12 @@
-[
-    {
+[{
         "id": "geometricLabyrinth",
-        "lat":-1394.5, "lng":1699.25,
+        "title": "Geometric Labyrinth",
+        "lat": -1394.5,
+        "lng": 1699.25,
         "minBP": 1681,
         "enemyLv": 30,
         "players": 4,
-        "rewards": [
-            {
+        "rewards": [{
                 "item": "rewards:item.gold_prim_sword"
             },
             {
@@ -28,12 +28,13 @@
     },
     {
         "id": "cannonballRumble",
-        "lat":-592.5, "lng":496.75,
+        "title": "Cannonball Rumble",
+        "lat": -592.5,
+        "lng": 496.75,
         "minBP": 2647,
         "enemyLv": 60,
         "players": 4,
-        "rewards": [
-            {
+        "rewards": [{
                 "item": "rewards:item.gold_prim_sword"
             },
             {
@@ -58,12 +59,13 @@
     },
     {
         "id": "cannonballStrike",
-        "lat":-706, "lng":840.5,
+        "title": "Cannonball Strike",
+        "lat": -706,
+        "lng": 840.5,
         "minBP": 2647,
         "enemyLv": 60,
         "players": 4,
-        "rewards": [
-            {
+        "rewards": [{
                 "item": "rewards:item.gold_prim_sword"
             },
             {

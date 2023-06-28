@@ -22,9 +22,6 @@ const map = new L.Map('map', {
     doubleClickZoom: false,
 });
 
-// `/${STATIC_URL}images/tiles/{z}/{y}-{x}.png`
-//'{% static "images/tiles/{z}/{y}-{x}.png" %}'
-
 const tileLayer = new L.TileLayer(`${STATIC_URL}images/tiles/{z}/{y}-{x}.png`, {
     bounds: [
         [bounds.South, bounds.West],
