@@ -173,3 +173,4 @@ tests/coverage_html/
 tests/.coverage*
 build/
 tests/report/
+ngs_pathfinder_web/run.bat

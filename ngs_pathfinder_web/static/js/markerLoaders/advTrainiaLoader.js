@@ -1,9 +1,9 @@
 function _loadAdvTrainia(jsonData) {
     for (const trainiaData of jsonData) {
         var marker = L.marker([trainiaData.lat, trainiaData.lng], {
-            icon: iconCollection['advTrainia']
+            icon: iconCollection['advTrainia'],
+            alt: trainiaData.id
         });
-        marker.options.id = trainiaData.id;
 
         // Tooltip; Shown on hover.
         var tooltipContent = `<tooltipwindow>
