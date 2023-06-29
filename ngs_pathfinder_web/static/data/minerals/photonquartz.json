@@ -1,0 +1,232 @@
+[{
+        "id": "photonquartz0",
+        "type": "Photon Quartz",
+        "lat": "-1195.25",
+        "lng": "554.125",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz7",
+        "type": "Photon Quartz",
+        "lat": "-1156.375",
+        "lng": "533.25",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz8",
+        "type": "Photon Quartz",
+        "lat": "-1182.875",
+        "lng": "495.625",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz9",
+        "type": "Photon Quartz",
+        "lat": "-1291.5",
+        "lng": "483",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz10",
+        "type": "Photon Quartz",
+        "lat": "-1243.75",
+        "lng": "603",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz11",
+        "type": "Photon Quartz",
+        "lat": "-1239",
+        "lng": "653",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz12",
+        "type": "Photon Quartz",
+        "lat": "-1288.75",
+        "lng": "802.75",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz13",
+        "type": "Photon Quartz",
+        "lat": "-1116.75",
+        "lng": "423.5",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz14",
+        "type": "Photon Quartz",
+        "lat": "-1117.5",
+        "lng": "377.75",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz15",
+        "type": "Photon Quartz",
+        "lat": "-1140.75",
+        "lng": "341",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz16",
+        "type": "Photon Quartz",
+        "lat": "-1158.5",
+        "lng": "297.25",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz17",
+        "type": "Photon Quartz",
+        "lat": "-1119.5",
+        "lng": "231",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz18",
+        "type": "Photon Quartz",
+        "lat": "-995.5",
+        "lng": "227.5",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz19",
+        "type": "Photon Quartz",
+        "lat": "-964.5",
+        "lng": "276.75",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz20",
+        "type": "Photon Quartz",
+        "lat": "-957",
+        "lng": "340",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz21",
+        "type": "Photon Quartz",
+        "lat": "-989.75",
+        "lng": "375.5",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz22",
+        "type": "Photon Quartz",
+        "lat": "-1028",
+        "lng": "403.25",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz23",
+        "type": "Photon Quartz",
+        "lat": "-1502",
+        "lng": "372",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz24",
+        "type": "Photon Quartz",
+        "lat": "-1543.75",
+        "lng": "416",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz25",
+        "type": "Photon Quartz",
+        "lat": "-1605.25",
+        "lng": "378.25",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz26",
+        "type": "Photon Quartz",
+        "lat": "-1586.25",
+        "lng": "414",
+        "region": "aelio"
+    },
+    {
+        "id": "photonquartz27",
+        "type": "Photon Quartz",
+        "lat": "-1912.75",
+        "lng": "1847.75",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz28",
+        "type": "Photon Quartz",
+        "lat": "-1900.75",
+        "lng": "1894.5",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz29",
+        "type": "Photon Quartz",
+        "lat": "-1954.75",
+        "lng": "1901",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz30",
+        "type": "Photon Quartz",
+        "lat": "-1117.5",
+        "lng": "1470.75",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz31",
+        "type": "Photon Quartz",
+        "lat": "-1066.25",
+        "lng": "1476.25",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz32",
+        "type": "Photon Quartz",
+        "lat": "-1249.25",
+        "lng": "1358.25",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz33",
+        "type": "Photon Quartz",
+        "lat": "-1190.5",
+        "lng": "1174.75",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz34",
+        "type": "Photon Quartz",
+        "lat": "-1152",
+        "lng": "1185.5",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz35",
+        "type": "Photon Quartz",
+        "lat": "-1323.75",
+        "lng": "1268.75",
+        "region": "retem"
+    },
+    {
+        "id": "photonquartz36",
+        "type": "Photon Quartz",
+        "lat": "-497.5",
+        "lng": "1573",
+        "region": "stia"
+    },
+    {
+        "id": "photonquartz37",
+        "type": "Photon Quartz",
+        "lat": "-494",
+        "lng": "1606.5",
+        "region": "stia"
+    },
+    {
+        "id": "photonquartz38",
+        "type": "Photon Quartz",
+        "lat": "-429",
+        "lng": "1547.5",
+        "region": "stia"
+    }
+]

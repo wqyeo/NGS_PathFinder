@@ -42,3 +42,11 @@ button:focus,
 .leaflet-marker-icon:active {
     cursor: url('../images/cursors/active.png') 0 0, auto !important;
 }
+
+#form-container {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 10px;
+}

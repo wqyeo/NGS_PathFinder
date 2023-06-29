@@ -34,4 +34,23 @@ tileLayer.addTo(map);
 
 map.setView([bounds.South / 2, bounds.East / 2]);
 
-window.mapInstance = map;
+map.on('click', function(e) {
+    var type = document.getElementById("type").value;
+    var region = document.getElementById("region").value;
+    var nameId = document.getElementById("nameId").value;
+
+    $.ajax({
+        url: '/add-minerals/',
+        data: {
+            'nameId': nameId,
+            'lat': e.latlng.lat,
+            'lng': e.latlng.lng,
+            'type': type,
+            'region': region
+        },
+        dataType: 'json',
+        success: function(response) {
+            console.log("Added!")
+        }
+    });
+});

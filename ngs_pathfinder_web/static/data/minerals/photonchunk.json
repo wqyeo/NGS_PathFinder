@@ -1,0 +1,260 @@
+[{
+        "id": "photonchunk0",
+        "type": "Photon Chunk",
+        "lat": "-1206.875",
+        "lng": "551.25",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk1",
+        "type": "Photon Chunk",
+        "lat": "-1107.75",
+        "lng": "288.75",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk2",
+        "type": "Photon Chunk",
+        "lat": "-1583",
+        "lng": "388.5",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk3",
+        "type": "Photon Chunk",
+        "lat": "-1618.25",
+        "lng": "443",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk4",
+        "type": "Photon Chunk",
+        "lat": "-1688.5",
+        "lng": "485.25",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk5",
+        "type": "Photon Chunk",
+        "lat": "-1685.5",
+        "lng": "560",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk6",
+        "type": "Photon Chunk",
+        "lat": "-1665",
+        "lng": "586",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk7",
+        "type": "Photon Chunk",
+        "lat": "-1773.25",
+        "lng": "494.25",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk8",
+        "type": "Photon Chunk",
+        "lat": "-1758.25",
+        "lng": "539.75",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk9",
+        "type": "Photon Chunk",
+        "lat": "-1868.5",
+        "lng": "514",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk10",
+        "type": "Photon Chunk",
+        "lat": "-1875.25",
+        "lng": "690",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk11",
+        "type": "Photon Chunk",
+        "lat": "-1817.25",
+        "lng": "715",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk12",
+        "type": "Photon Chunk",
+        "lat": "-1797.75",
+        "lng": "743.5",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk13",
+        "type": "Photon Chunk",
+        "lat": "-1745",
+        "lng": "749.625",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk14",
+        "type": "Photon Chunk",
+        "lat": "-1714",
+        "lng": "860.5",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk15",
+        "type": "Photon Chunk",
+        "lat": "-1738",
+        "lng": "833.375",
+        "region": "aelio"
+    },
+    {
+        "id": "photonchunk16",
+        "type": "Photon Chunk",
+        "lat": "-1195",
+        "lng": "1743.625",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk17",
+        "type": "Photon Chunk",
+        "lat": "-1191.25",
+        "lng": "1718.25",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk18",
+        "type": "Photon Chunk",
+        "lat": "-1266.25",
+        "lng": "1907.75",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk19",
+        "type": "Photon Chunk",
+        "lat": "-1169",
+        "lng": "1531",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk20",
+        "type": "Photon Chunk",
+        "lat": "-1104",
+        "lng": "1786.25",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk21",
+        "type": "Photon Chunk",
+        "lat": "-1049.5",
+        "lng": "1697.5",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk22",
+        "type": "Photon Chunk",
+        "lat": "-1520",
+        "lng": "1634.75",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk23",
+        "type": "Photon Chunk",
+        "lat": "-1481",
+        "lng": "1631.75",
+        "region": "retem"
+    },
+    {
+        "id": "photonchunk24",
+        "type": "Photon Chunk",
+        "lat": "-395.625",
+        "lng": "688.875",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk25",
+        "type": "Photon Chunk",
+        "lat": "-433.875",
+        "lng": "673.75",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk26",
+        "type": "Photon Chunk",
+        "lat": "-430.5",
+        "lng": "633.625",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk27",
+        "type": "Photon Chunk",
+        "lat": "-415.625",
+        "lng": "597.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk28",
+        "type": "Photon Chunk",
+        "lat": "-403.5",
+        "lng": "570.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk29",
+        "type": "Photon Chunk",
+        "lat": "-366.5",
+        "lng": "547.375",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk30",
+        "type": "Photon Chunk",
+        "lat": "-344.125",
+        "lng": "560.25",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk31",
+        "type": "Photon Chunk",
+        "lat": "-395.375",
+        "lng": "509.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk32",
+        "type": "Photon Chunk",
+        "lat": "-349.875",
+        "lng": "514.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk33",
+        "type": "Photon Chunk",
+        "lat": "-317.25",
+        "lng": "540.25",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk34",
+        "type": "Photon Chunk",
+        "lat": "-280.625",
+        "lng": "545.125",
+        "region": "kvaris"
+    },
+    {
+        "id": "photonchunk35",
+        "type": "Photon Chunk",
+        "lat": "-542.75",
+        "lng": "1488.75",
+        "region": "stia"
+    },
+    {
+        "id": "photonchunk36",
+        "type": "Photon Chunk",
+        "lat": "-545",
+        "lng": "1537.25",
+        "region": "stia"
+    }
+]

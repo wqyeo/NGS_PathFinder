@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>NGS Pathfinding Map</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link rel="stylesheet" href="{% static 'css/mapPage.css' %}" />
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <link rel="stylesheet" href="{% static 'css/tooltip.css' %}" />
@@ -13,11 +13,28 @@
 <body>
     <div id="map"></div>
 
+    <navbar>
+    <div id="form-container">
+        <form>
+            <div>
+                <input type="text" id="nameId" placeholder="mineral id">
+              </div>
+          <div>
+            <input type="text" id="type" placeholder="mineral type">
+          </div>
+          <div>
+            <input type="text" id="region" placeholder="region it is in">
+          </div>
+        </form>
+      </div>
+    </navbar>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
     <script>
         const STATIC_URL = "{% static '' %}";
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
     <!--Map init-->
     <script src="{% static 'js/mapLoader.js' %}"></script>
@@ -31,5 +48,6 @@
     <script src="{% static 'js/markerLoaders/towerLoader.js' %}"></script>
     <script src="{% static 'js/markerLoaders/battlediaLoader.js' %}"></script>
     <script src="{% static 'js/markerLoaders/cocoonLoader.js' %}"></script>
+    <script src="{% static 'js/markerLoaders/mineralLoader.js' %}"></script>
 </body>
 </html>
