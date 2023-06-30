@@ -35,6 +35,7 @@ tileLayer.addTo(map);
 map.setView([bounds.South / 2, bounds.East / 2]);
 
 map.on('click', function(e) {
+    return;
     var type = document.getElementById("type").value;
     var region = document.getElementById("region").value;
     var nameId = document.getElementById("nameId").value;

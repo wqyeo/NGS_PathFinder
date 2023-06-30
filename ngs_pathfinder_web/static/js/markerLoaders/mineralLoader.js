@@ -23,7 +23,6 @@ function _findCircleSettingByMineral(colorSettings, mineralData) {
 
     for (const i in colorSettings) {
         var setting = colorSettings[i];
-        console.log(setting);
         if (setting["item"] === mineralItem) {
             return setting;
         }
@@ -32,7 +31,6 @@ function _findCircleSettingByMineral(colorSettings, mineralData) {
 
 async function _loadMinerals(jsonData) {
     const colorSettings = await _loadMineralColors();
-    console.log(colorSettings)
 
     for (const mineralData of jsonData) {
         // Create marker first
@@ -50,6 +48,20 @@ async function _loadMinerals(jsonData) {
         marker.bindTooltip(tooltipContent, {
             direction: 'top'
         });
+
+        marker.on("click", (e) => {
+            const result = registerPathNode(mineralData.id, mineralData.lat, mineralData.lng, "mineral", mineralData.region);
+
+            if (result) {
+                marker.setOpacity(0.5);
+            } else {
+                marker.setOpacity(1);
+            }
+        });
+
+        if (pathNodeExists(mineralData.id)) {
+            marker.setOpacity(0.5);
+        }
 
         // Create Circle
         const circleSettings = _findCircleSettingByMineral(colorSettings, mineralData);

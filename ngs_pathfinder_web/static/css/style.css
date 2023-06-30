@@ -110,4 +110,56 @@ container {
   transition: fill-opacity ease 0.4s, stroke-opacity ease 0.4s;
 }
 
+navbar buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+navbar buttons button {
+  position: relative;
+  width: calc(130px * 1.35);
+  height: calc(60px * 1.35);
+  background-color: rgba(26, 67, 121, 0.85);
+  border: solid 2px rgba(29, 33, 42, 0.85);
+  margin-left: 4px;
+  margin-right: 4px;
+}
+navbar buttons button:hover {
+  background-color: rgba(52, 98, 142, 0.85);
+  border: solid 2px rgba(54, 255, 255, 0.85);
+}
+navbar buttons button:active {
+  background-color: rgba(129, 122, 23, 0.85);
+  border: solid 2px rgba(129, 122, 23, 0.85);
+}
+navbar buttons button:hover::before, navbar buttons button:active::before {
+  content: "";
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./bg_button.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+navbar buttons button svg,
+navbar buttons button img {
+  position: absolute;
+  width: auto;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  top: 40%;
+  pointer-events: none;
+}
+navbar buttons button div,
+navbar buttons button span {
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  width: calc(100% - 12px);
+}
+
 /*# sourceMappingURL=style.css.map */

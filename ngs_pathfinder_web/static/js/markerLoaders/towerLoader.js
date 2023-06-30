@@ -16,6 +16,20 @@ function _loadTower(jsonData) {
             direction: 'top'
         });
 
+        marker.on("click", (e) => {
+            registerPathNode(towerData.id, towerData.lat, towerData.lng, "tower", "aelio");
+        });
+
+        if (pathNodeExists(towerData.id)) {
+            const result = marker.setOpacity(0.5);
+
+            if (result) {
+                marker.setOpacity(0.5);
+            } else {
+                marker.setOpacity(1);
+            }
+        }
+
         marker.addTo(map);
     }
 }

@@ -16,6 +16,20 @@ function _loadCocoon(jsonData) {
             direction: 'top'
         });
 
+        marker.on("click", (e) => {
+            const result = registerPathNode(cocoonData.id, cocoonData.lat, cocoonData.lng, "cocoon", "aelio");
+
+            if (result) {
+                marker.setOpacity(0.5);
+            } else {
+                marker.setOpacity(1);
+            }
+        });
+
+        if (pathNodeExists(cocoonData.id)) {
+            marker.setOpacity(0.5);
+        }
+
         marker.addTo(map);
     }
 }
