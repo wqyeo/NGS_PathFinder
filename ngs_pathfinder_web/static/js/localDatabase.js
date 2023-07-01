@@ -2,6 +2,7 @@
 function registerPathNode(nodeId, lat, lng, category, region) {
     if (pathNodeExists(nodeId)) {
         localStorage.removeItem(nodeId);
+        console.log("Removed " + nodeId)
         return false;
     }
 
@@ -13,6 +14,7 @@ function registerPathNode(nodeId, lat, lng, category, region) {
     };
 
     localStorage.setItem(nodeId, JSON.stringify(entry));
+    console.log("Added " + nodeId)
     return true;
 }
 
@@ -40,10 +42,7 @@ function getAllPathNodes() {
     for (var i = 0; i < localStorage.length; ++i) {
         var key = localStorage.key(i);
         var data = JSON.parse(localStorage.getItem(key));
-
-        if (_isValidPathNode(data)) {
-            result[key] = data;
-        }
+        result[key] = data;
     }
 
     return result;

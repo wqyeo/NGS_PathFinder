@@ -14,12 +14,15 @@
     <div id="map"></div>
 
     <navbar>
+      <form id="csrfForm" style="display: none;">
+        {% csrf_token %}
+      </form>
       <buttons>
-        <button onClick="showMapSettings()">
+        <button id="showSettingButton" onClick="showMapSettings()">
           <img alt="" src="{% static 'images/icons/settings.png' %}"/>
           <div>Map Settings</div>
         </button>
-        <button onClick="showPathFinding()">
+        <button id="showPathButton" onClick="showPathFinding()">
           <img alt="" src="{% static 'images/icons/mapLegend.png' %}"/>
           <div>Show Pathfindings</div>
         </button>
@@ -44,7 +47,7 @@
       </div>
     </navbar>
   -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
     <script>
@@ -66,5 +69,7 @@
     <script src="{% static 'js/markerLoaders/battlediaLoader.js' %}"></script>
     <script src="{% static 'js/markerLoaders/cocoonLoader.js' %}"></script>
     <script src="{% static 'js/markerLoaders/mineralLoader.js' %}"></script>
-</body>
+
+    <script src="{% static 'js/navbarUtil.js' %}"></script>
+  </body>
 </html>
