@@ -8,4 +8,4 @@ It focuses on implementing pathfinding functionality on top of an existing inter
 
 ### Acknowledgements
 
-- Static images, data and webpage styling was fetched from https://github.com/kosnag/NGS_WorldMap.
+- Static images, data and webpage styling was fetched from https://github.com/kosnag/NGS_WorldMap, and https://github.com/alairon/ngs-world-map.
