@@ -1,8 +1,8 @@
 class Node:
     def __init__(self, id: str, lat: float, lng: float, category: str, region: str):
         self._id = id
-        self._lat = lat
-        self._lng = lng
+        self._lat = float(lat)
+        self._lng = float(lng)
         self._category = category
         self._region = region
 

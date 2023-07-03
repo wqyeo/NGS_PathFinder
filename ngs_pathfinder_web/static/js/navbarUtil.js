@@ -3,7 +3,7 @@ function showMapSettings() {
 }
 
 function showPathFinding() {
-    const allNodes = getAllPathNodes();
+    const allNodes = JSON.stringify(getAllPathNodes());
 
     // Fetch and include the CSRF token from the hidden form
     var csrfForm = document.getElementById('csrfForm');
