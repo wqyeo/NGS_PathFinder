@@ -1,0 +1,176 @@
+[{
+        "id": "trinite0",
+        "type": "Trinite",
+        "lat": "-193.375",
+        "lng": "213.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "trinite1",
+        "type": "Trinite",
+        "lat": "-221.25",
+        "lng": "217.25",
+        "region": "kvaris"
+    },
+    {
+        "id": "trinite2",
+        "type": "Trinite",
+        "lat": "-197.625",
+        "lng": "248.625",
+        "region": "kvaris"
+    },
+    {
+        "id": "trinite3",
+        "type": "Trinite",
+        "lat": "-336.25",
+        "lng": "320",
+        "region": "kvaris"
+    },
+    {
+        "id": "trinite4",
+        "type": "Trinite",
+        "lat": "-823",
+        "lng": "318.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "trinite5",
+        "type": "Trinite",
+        "lat": "-813",
+        "lng": "395",
+        "region": "kvaris"
+    },
+    {
+        "id": "trinite6",
+        "type": "Trinite",
+        "lat": "-1289.25",
+        "lng": "256",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite7",
+        "type": "Trinite",
+        "lat": "-1119.5",
+        "lng": "468.75",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite8",
+        "type": "Trinite",
+        "lat": "-1247.5",
+        "lng": "120.75",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite9",
+        "type": "Trinite",
+        "lat": "-1467.5",
+        "lng": "227.25",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite10",
+        "type": "Trinite",
+        "lat": "-1403",
+        "lng": "186.5",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite11",
+        "type": "Trinite",
+        "lat": "-1537.75",
+        "lng": "368",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite12",
+        "type": "Trinite",
+        "lat": "-1742.5",
+        "lng": "148.5",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite13",
+        "type": "Trinite",
+        "lat": "-1699.25",
+        "lng": "235.75",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite14",
+        "type": "Trinite",
+        "lat": "-1733",
+        "lng": "404.25",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite15",
+        "type": "Trinite",
+        "lat": "-1884.25",
+        "lng": "456",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite16",
+        "type": "Trinite",
+        "lat": "-1937",
+        "lng": "373.75",
+        "region": "aelio"
+    },
+    {
+        "id": "trinite17",
+        "type": "Trinite",
+        "lat": "-1828.75",
+        "lng": "1142.875",
+        "region": "retem"
+    },
+    {
+        "id": "trinite18",
+        "type": "Trinite",
+        "lat": "-1886.125",
+        "lng": "1249.75",
+        "region": "retem"
+    },
+    {
+        "id": "trinite19",
+        "type": "Trinite",
+        "lat": "-1844.25",
+        "lng": "1265.25",
+        "region": "retem"
+    },
+    {
+        "id": "trinite20",
+        "type": "Trinite",
+        "lat": "-1900.625",
+        "lng": "1376.125",
+        "region": "retem"
+    },
+    {
+        "id": "trinite21",
+        "type": "Trinite",
+        "lat": "-1838.5",
+        "lng": "1445",
+        "region": "retem"
+    },
+    {
+        "id": "trinite22",
+        "type": "Trinite",
+        "lat": "-1649.75",
+        "lng": "1434.5",
+        "region": "retem"
+    },
+    {
+        "id": "trinite23",
+        "type": "Trinite",
+        "lat": "-1709",
+        "lng": "1443.5",
+        "region": "retem"
+    },
+    {
+        "id": "trinite24",
+        "type": "Trinite",
+        "lat": "-1495.75",
+        "lng": "1611.5",
+        "region": "retem"
+    }
+]

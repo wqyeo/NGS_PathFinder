@@ -40,7 +40,7 @@ function getAllPathNodes() {
     var result = {};
 
     for (var i = 0; i < localStorage.length; ++i) {
-        var key = localStorage.key(i);
+        var key = localStorage.key(i)
         var data = JSON.parse(localStorage.getItem(key));
         result[key] = data;
     }

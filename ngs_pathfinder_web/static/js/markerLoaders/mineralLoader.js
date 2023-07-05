@@ -80,7 +80,10 @@ async function _loadMinerals(jsonData) {
 
 const _mineralsJsonFilePaths = [
     `data/minerals/photonchunk.json`,
-    `data/minerals/photonquartz.json`
+    `data/minerals/photonquartz.json`,
+    `data/minerals/dualomite.json`,
+    `data/minerals/pentalite.json`,
+    `data/minerals/trinite.json`
 ];
 
 for (const filePath of _mineralsJsonFilePaths) {

@@ -1,0 +1,309 @@
+[{
+        "id": "dualomite0",
+        "type": "Dualomite",
+        "lat": "-528.25",
+        "lng": "1530.25",
+        "region": "stia"
+    },
+    {
+        "id": "dualomite1",
+        "type": "Dualomite",
+        "lat": "-502.25",
+        "lng": "1494",
+        "region": "stia"
+    },
+    {
+        "id": "dualomite2",
+        "type": "Dualomite",
+        "lat": "-728",
+        "lng": "833",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite3",
+        "type": "Dualomite",
+        "lat": "-766.5",
+        "lng": "833.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite4",
+        "type": "Dualomite",
+        "lat": "-796",
+        "lng": "813.375",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite5",
+        "type": "Dualomite",
+        "lat": "-824.375",
+        "lng": "783.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite6",
+        "type": "Dualomite",
+        "lat": "-852",
+        "lng": "792.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite7",
+        "type": "Dualomite",
+        "lat": "-873",
+        "lng": "681.25",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite8",
+        "type": "Dualomite",
+        "lat": "-883",
+        "lng": "657.625",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite9",
+        "type": "Dualomite",
+        "lat": "-895.125",
+        "lng": "678.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite10",
+        "type": "Dualomite",
+        "lat": "-878.75",
+        "lng": "710.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite11",
+        "type": "Dualomite",
+        "lat": "-778",
+        "lng": "608.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "dualomite12",
+        "type": "Dualomite",
+        "lat": "-1128.5",
+        "lng": "60",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite13",
+        "type": "Dualomite",
+        "lat": "-1179",
+        "lng": "184",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite14",
+        "type": "Dualomite",
+        "lat": "-1195",
+        "lng": "96.5",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite15",
+        "type": "Dualomite",
+        "lat": "-1275",
+        "lng": "141",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite16",
+        "type": "Dualomite",
+        "lat": "-1440.5",
+        "lng": "200.25",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite17",
+        "type": "Dualomite",
+        "lat": "-1586",
+        "lng": "342",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite18",
+        "type": "Dualomite",
+        "lat": "-1693.25",
+        "lng": "294.75",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite19",
+        "type": "Dualomite",
+        "lat": "-1741",
+        "lng": "272",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite20",
+        "type": "Dualomite",
+        "lat": "-1816.75",
+        "lng": "233.75",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite21",
+        "type": "Dualomite",
+        "lat": "-1937.75",
+        "lng": "94.5",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite22",
+        "type": "Dualomite",
+        "lat": "-1874.75",
+        "lng": "238.5",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite23",
+        "type": "Dualomite",
+        "lat": "-1800",
+        "lng": "383.25",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite24",
+        "type": "Dualomite",
+        "lat": "-1880.5",
+        "lng": "319.75",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite25",
+        "type": "Dualomite",
+        "lat": "-1885",
+        "lng": "427.25",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite26",
+        "type": "Dualomite",
+        "lat": "-1888",
+        "lng": "506",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite27",
+        "type": "Dualomite",
+        "lat": "-1830.25",
+        "lng": "486.75",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite28",
+        "type": "Dualomite",
+        "lat": "-1786.5",
+        "lng": "524.375",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite29",
+        "type": "Dualomite",
+        "lat": "-1703.75",
+        "lng": "529.75",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite30",
+        "type": "Dualomite",
+        "lat": "-1662.5",
+        "lng": "490.25",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite31",
+        "type": "Dualomite",
+        "lat": "-1815.75",
+        "lng": "764.75",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite32",
+        "type": "Dualomite",
+        "lat": "-1872.5",
+        "lng": "739",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite33",
+        "type": "Dualomite",
+        "lat": "-1875.25",
+        "lng": "658",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite34",
+        "type": "Dualomite",
+        "lat": "-1737.875",
+        "lng": "856.625",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite35",
+        "type": "Dualomite",
+        "lat": "-1709.875",
+        "lng": "809.375",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite36",
+        "type": "Dualomite",
+        "lat": "-1711.5",
+        "lng": "882.25",
+        "region": "aelio"
+    },
+    {
+        "id": "dualomite37",
+        "type": "Dualomite",
+        "lat": "-1847.625",
+        "lng": "1133",
+        "region": "retem"
+    },
+    {
+        "id": "dualomite38",
+        "type": "Dualomite",
+        "lat": "-1898.75",
+        "lng": "1232.625",
+        "region": "retem"
+    },
+    {
+        "id": "dualomite39",
+        "type": "Dualomite",
+        "lat": "-1891.875",
+        "lng": "1362.375",
+        "region": "retem"
+    },
+    {
+        "id": "dualomite40",
+        "type": "Dualomite",
+        "lat": "-1676",
+        "lng": "1438.25",
+        "region": "retem"
+    },
+    {
+        "id": "dualomite41",
+        "type": "Dualomite",
+        "lat": "-1654.5",
+        "lng": "1469",
+        "region": "retem"
+    },
+    {
+        "id": "dualomite42",
+        "type": "Dualomite",
+        "lat": "-1541.75",
+        "lng": "1584",
+        "region": "retem"
+    },
+    {
+        "id": "dualomite43",
+        "type": "Dualomite",
+        "lat": "-1365.625",
+        "lng": "1760.125",
+        "region": "retem"
+    }
+]

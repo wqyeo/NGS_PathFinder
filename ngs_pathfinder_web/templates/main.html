@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="{% static 'css/tooltip.css' %}" />
     <link rel="stylesheet" href="{% static 'css/general.css' %}" />
     <link rel="stylesheet" href="{% static 'css/popup.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/mapLegends.css' %}" />
 </head>
 <body>
     <div id="map"></div>
-
+    
     <navbar>
       <form id="csrfForm" style="display: none;">
         {% csrf_token %}
@@ -30,8 +31,8 @@
     </navbar>
 
       <!--Temporary; To fill up mineral node locations-->
-    <!--
-    navbar>
+      <!--
+    <navbar>
     <div id="form-container">
         <form>
             <div>
