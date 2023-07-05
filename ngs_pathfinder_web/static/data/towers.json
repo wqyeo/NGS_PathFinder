@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "altersRush",
         "lat": -1084.5,
         "lng": 171.5,
@@ -6,6 +7,7 @@
         "minBP": 1184,
         "enemyLv": 15,
         "challenge": true,
+        "region": "aelio",
         "title": "Alters Rush"
     },
     {
@@ -16,6 +18,7 @@
         "minBP": 1184,
         "enemyLv": 15,
         "challenge": true,
+        "region": "aelio",
         "title": "Great Wall"
     },
     {
@@ -25,6 +28,7 @@
         "players": 4,
         "minBP": 1184,
         "enemyLv": 15,
+        "region": "aelio",
         "title": "Aero Runner"
     },
     {
@@ -35,6 +39,7 @@
         "minBP": 1592,
         "enemyLv": 30,
         "challenge": true,
+        "region": "retem",
         "title": "Dolls Burrow"
     },
     {
@@ -45,6 +50,7 @@
         "minBP": 2506,
         "enemyLv": 55,
         "challenge": true,
+        "region": "kvaris",
         "title": "Deep Well"
     },
     {
@@ -55,6 +61,7 @@
         "minBP": 2972,
         "enemyLv": 65,
         "challenge": true,
+        "region": "stia",
         "title": "Broken World"
     }
 ]

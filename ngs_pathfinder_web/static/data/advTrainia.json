@@ -1,6 +1,7 @@
 [{
         "id": "geometricLabyrinth",
         "title": "Geometric Labyrinth",
+        "region": "retem",
         "lat": -1394.5,
         "lng": 1699.25,
         "minBP": 1681,
@@ -29,6 +30,7 @@
     {
         "id": "cannonballRumble",
         "title": "Cannonball Rumble",
+        "region": "kvaris",
         "lat": -592.5,
         "lng": 496.75,
         "minBP": 2647,
@@ -60,6 +62,7 @@
     {
         "id": "cannonballStrike",
         "title": "Cannonball Strike",
+        "region": "kvaris",
         "lat": -706,
         "lng": 840.5,
         "minBP": 2647,

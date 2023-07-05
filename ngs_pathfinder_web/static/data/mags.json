@@ -1,75 +1,85 @@
-[{
+[
+    {
         "lat": -1580,
         "lng": 172,
+        "region": "aelio",
         "string": "invincible",
         "id": "aelioInvincibleMag"
     },
     {
         "lat": -1268,
         "lng": 268,
+        "region": "aelio",
         "string": "expert",
         "id": "aelioExpertMag"
     },
     {
         "lat": -1955,
         "lng": 647,
+        "region": "aelio",
         "string": "priceless",
         "id": "aelioPricelessMag"
     },
-
     {
         "lat": -1875,
         "lng": 1580,
+        "region": "retem",
         "string": "priceless",
         "id": "retemPricelessMag"
     },
     {
         "lat": -1156,
         "lng": 1418,
+        "region": "retem",
         "string": "invincible",
         "id": "retemInvincibleMag"
     },
     {
         "lat": -1172,
         "lng": 1780,
+        "region": "retem",
         "string": "expert",
         "id": "retemExpertMag"
     },
-
     {
         "lat": -817,
         "lng": 85,
+        "region": "kvaris",
         "string": "expert",
         "id": "kvarisExpertMag"
     },
     {
         "lat": -512,
         "lng": 513,
+        "region": "kvaris",
         "string": "priceless",
         "id": "kvarisPricelessMag"
     },
     {
         "lat": -496,
         "lng": 245,
+        "region": "kvaris",
         "string": "invincible",
         "id": "kvarisInvincibleMag"
     },
-
     {
         "lat": -657,
         "lng": 1479.25,
+        "region": "stia",
         "string": "expert",
         "id": "stiaExpertMag"
     },
     {
         "lat": -484.75,
         "lng": 1465,
+        "region": "stia",
         "string": "priceless",
         "id": "stiaPricelessMag"
     },
     {
         "lat": -682.375,
         "lng": 1148.5,
+        "region": "stia",
         "string": "invincible",
         "id": "stiaInvincibleMag"
     }

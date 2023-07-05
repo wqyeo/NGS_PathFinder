@@ -1,10 +1,12 @@
-[{
+[
+    {
         "id": "firstStep",
         "lat": -1306,
         "lng": 681.75,
         "players": 1,
         "minBP": 800,
         "enemyLv": 1,
+        "region": "aelio",
         "title": "First Step"
     },
     {
@@ -14,6 +16,7 @@
         "players": 4,
         "minBP": 894,
         "enemyLv": 5,
+        "region": "aelio",
         "title": "Enhanced Enemy"
     },
     {
@@ -23,6 +26,7 @@
         "players": 4,
         "minBP": 916,
         "enemyLv": 6,
+        "region": "aelio",
         "title": "Swift Jump"
     },
     {
@@ -33,6 +37,7 @@
         "minBP": 894,
         "enemyLv": 5,
         "challenge": true,
+        "region": "aelio",
         "title": "Wild Rush"
     },
     {
@@ -42,6 +47,7 @@
         "players": 4,
         "minBP": 835,
         "enemyLv": 3,
+        "region": "aelio",
         "title": "Test Flight"
     },
     {
@@ -52,6 +58,7 @@
         "minBP": 1184,
         "enemyLv": 15,
         "challenge": true,
+        "region": "aelio",
         "title": "Roaring Rush"
     },
     {
@@ -62,6 +69,7 @@
         "minBP": 1184,
         "enemyLv": 15,
         "challenge": true,
+        "region": "aelio",
         "title": "Fleeting Fight"
     },
     {
@@ -71,6 +79,7 @@
         "players": 4,
         "minBP": 1009,
         "enemyLv": 10,
+        "region": "aelio",
         "title": "Runway"
     },
     {
@@ -81,6 +90,7 @@
         "minBP": 1562,
         "enemyLv": 25,
         "challenge": true,
+        "region": "retem",
         "title": "Vanishing Path"
     },
     {
@@ -91,6 +101,7 @@
         "minBP": 1396,
         "enemyLv": 21,
         "challenge": true,
+        "region": "retem",
         "title": "Narrow Cage"
     },
     {
@@ -101,6 +112,7 @@
         "minBP": 1396,
         "enemyLv": 21,
         "challenge": true,
+        "region": "retem",
         "title": "Buddy Attack"
     },
     {
@@ -111,6 +123,7 @@
         "minBP": 1223,
         "enemyLv": 17,
         "challenge": true,
+        "region": "retem",
         "title": "Dyna Assault"
     },
     {
@@ -120,6 +133,7 @@
         "players": 4,
         "minBP": 1223,
         "enemyLv": 17,
+        "region": "retem",
         "title": "Parkour Master"
     },
     {
@@ -129,6 +143,7 @@
         "players": 4,
         "minBP": 1223,
         "enemyLv": 17,
+        "region": "retem",
         "title": "Runway 2"
     },
     {
@@ -139,6 +154,7 @@
         "minBP": 2082,
         "enemyLv": 44,
         "challenge": true,
+        "region": "kvaris",
         "title": "Horrible Flapping"
     },
     {
@@ -149,6 +165,7 @@
         "minBP": 2018,
         "enemyLv": 42,
         "challenge": true,
+        "region": "kvaris",
         "title": "Crazy Tail"
     },
     {
@@ -158,6 +175,7 @@
         "players": 4,
         "minBP": 2018,
         "enemyLv": 42,
+        "region": "kvaris",
         "title": "Slope Tile"
     },
     {
@@ -168,6 +186,7 @@
         "minBP": 2082,
         "enemyLv": 44,
         "challenge": true,
+        "region": "kvaris",
         "title": "Clockwork Jail"
     },
     {
@@ -178,6 +197,7 @@
         "minBP": 2181,
         "enemyLv": 47,
         "challenge": true,
+        "region": "kvaris",
         "title": "Wild Avalanche"
     },
     {
@@ -187,6 +207,7 @@
         "players": 4,
         "minBP": 2181,
         "enemyLv": 47,
+        "region": "kvaris",
         "title": "Vanishing Path 2"
     },
     {
@@ -197,6 +218,7 @@
         "minBP": 2924,
         "enemyLv": 64,
         "challenge": true,
+        "region": "stia",
         "title": "Quarterstaff"
     },
     {
@@ -207,6 +229,7 @@
         "minBP": 2878,
         "enemyLv": 63,
         "challenge": true,
+        "region": "stia",
         "title": "Face The Darkness"
     },
     {
@@ -216,6 +239,7 @@
         "players": 4,
         "minBP": 1223,
         "enemyLv": 60,
+        "region": "stia",
         "title": "Helical Line"
     }
 ]
