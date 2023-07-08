@@ -130,7 +130,7 @@ def _gather_in_radius(
     return found_teleportable_in_range
 
 
-def create_heu_graph():
+def _create_heu_graph():
     """
     Create heuristic graph consisting of all the nodes present
     in the current dataset.
@@ -159,3 +159,16 @@ def create_heu_graph():
 
     print(BLUE + "Done creating heuresitic graph..." + END)
     return graph_nodes
+
+
+def generate_heu_graph_data():
+    """
+    Generate a data file, containing a heurestic graph
+    for the world map.
+    """
+    heu_graph = _create_heu_graph()
+    graph_json = json.dumps(heu_graph)
+
+    file_path = os.path.join(settings.STATIC_URL, "heu_graph_data.json")
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write(graph_json)
