@@ -62,7 +62,8 @@ def _get_map_markers() -> list[_Marker]:
 
     # Open every file
     for data_file_teleport in data_file_teleportable:
-        file_path = os.path.join(settings.STATIC_URL, data_file_teleport[0])
+        # file_path = os.path.join(settings.STATIC_URL, data_file_teleport[0])
+        file_path = os.path.join("static", data_file_teleport[0])
         print(BLUE + "Opening file " + file_path + "..." + END)
 
         with open(file_path, "r", encoding="utf-8") as file:
@@ -80,7 +81,7 @@ def _get_map_markers() -> list[_Marker]:
                     node_id, lat, lng, can_teleport, region)
                 map_markers.append(map_marker_data)
                 print("Appended Marker: " + data["id"])
-        return map_markers
+    return map_markers
 
 
 def _calculate_distance(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
@@ -107,7 +108,10 @@ def _gather_in_radius(
             continue
 
         distance = _calculate_distance(
-            current_node_ref.lat, current_node_ref.lng, marker.lat, marker.lng
+            float(current_node_ref.lat),
+            float(current_node_ref.lng),
+            float(marker.lat),
+            float(marker.lng),
         )
         # Not within search radius, ignore
         if radius < distance:
@@ -119,7 +123,7 @@ def _gather_in_radius(
         # Cost to traverse is simply the distance.
         # NOTE: The pathfinder algorithm will factor in additional cost for teleporting.
         connected_node = _NodeReference(
-            marker.lat, marker.lng, distance, marker.can_teleport
+            float(marker.lat), float(marker.lng), distance, marker.can_teleport
         )
 
         # Add to list of possible nodes to traverse to.
@@ -146,12 +150,12 @@ def _create_heu_graph():
         print("Searching node reference for node " + marker.node_id)
 
         has_sufficient_node_ref = False
-        gather_radius = 5.0
+        gather_radius = 10.0
         while not has_sufficient_node_ref:
             has_sufficient_node_ref = _gather_in_radius(
                 current_node, map_markers, gather_radius
             )
-            gather_radius += 5.0
+            gather_radius += 10.0
 
         # Gather one last time with expanded search radius
         _gather_in_radius(current_node, map_markers, gather_radius)
@@ -167,8 +171,9 @@ def generate_heu_graph_data():
     for the world map.
     """
     heu_graph = _create_heu_graph()
-    graph_json = json.dumps(heu_graph)
+    graph_json = json.dumps(
+        heu_graph, default=lambda obj: obj.__dict__, indent=2)
 
-    file_path = os.path.join(settings.STATIC_URL, "heu_graph_data.json")
+    file_path = os.path.join("static/", "heu_graph_data.json")
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(graph_json)
