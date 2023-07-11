@@ -721,22 +721,10 @@
         "cost": 186.21392268034094,
         "can_teleport": false
       },
-      "mtPiccolt": {
-        "lat": -1946.0,
-        "lng": 889.0,
-        "cost": 239.10876186371758,
-        "can_teleport": true
-      },
       "garneruCoastWest": {
         "lat": -1874.0,
         "lng": 1324.0,
         "cost": 218.7098534588691,
-        "can_teleport": true
-      },
-      "aeroRunner": {
-        "lat": -1911.75,
-        "lng": 919.75,
-        "cost": 215.01191827431333,
         "can_teleport": true
       },
       "dualomite39": {
@@ -3417,24 +3405,6 @@
         "cost": 151.61222122573102,
         "can_teleport": false
       },
-      "photonquartz21": {
-        "lat": -989.75,
-        "lng": 375.5,
-        "cost": 168.3324463673002,
-        "can_teleport": false
-      },
-      "photonquartz22": {
-        "lat": -1028.0,
-        "lng": 403.25,
-        "cost": 154.06512421700117,
-        "can_teleport": false
-      },
-      "trinite7": {
-        "lat": -1119.5,
-        "lng": 468.75,
-        "cost": 176.01225099407142,
-        "can_teleport": false
-      },
       "mtIhanaEast": {
         "lat": -794.0,
         "lng": 425.0,
@@ -3453,41 +3423,11 @@
         "cost": 193.17673255337974,
         "can_teleport": false
       },
-      "photonquartz7": {
-        "lat": -1156.375,
-        "lng": 533.25,
-        "cost": 197.5270946604541,
-        "can_teleport": false
-      },
-      "photonquartz13": {
-        "lat": -1116.75,
-        "lng": 423.5,
-        "cost": 196.70107396758158,
-        "can_teleport": false
-      },
-      "photonquartz20": {
-        "lat": -957.0,
-        "lng": 340.0,
-        "cost": 201.00995000248122,
-        "can_teleport": false
-      },
       "trinite5": {
         "lat": -813.0,
         "lng": 395.0,
         "cost": 206.47518010647187,
         "can_teleport": false
-      },
-      "swiftJump": {
-        "lat": -1121.5,
-        "lng": 406.5,
-        "cost": 210.94193513855893,
-        "can_teleport": true
-      },
-      "resolForest": {
-        "lat": -1163.0,
-        "lng": 655.0,
-        "cost": 233.69210512980536,
-        "can_teleport": true
       },
       "pentalite0": {
         "lat": -775.25,
@@ -3499,24 +3439,6 @@
         "lat": -817.0,
         "lng": 363.75,
         "cost": 227.1157469221366,
-        "can_teleport": false
-      },
-      "photonquartz0": {
-        "lat": -1195.25,
-        "lng": 554.125,
-        "cost": 236.6143024523243,
-        "can_teleport": false
-      },
-      "photonquartz8": {
-        "lat": -1182.875,
-        "lng": 495.625,
-        "cost": 228.42702609367396,
-        "can_teleport": false
-      },
-      "photonquartz14": {
-        "lat": -1117.5,
-        "lng": 377.75,
-        "cost": 227.53639818719114,
         "can_teleport": false
       }
     },
@@ -4391,12 +4313,6 @@
         "lat": -753.5,
         "lng": 1342.5,
         "cost": 147.16540439247262,
-        "can_teleport": true
-      },
-      "saganMountainRoadEast": {
-        "lat": -1066.0,
-        "lng": 1420.0,
-        "cost": 176.7064125887909,
         "can_teleport": true
       }
     },
@@ -7712,12 +7628,6 @@
         "lng": 227.75,
         "cost": 117.73327906756016,
         "can_teleport": false
-      },
-      "photonquartz19": {
-        "lat": -964.5,
-        "lng": 276.75,
-        "cost": 111.28398357355833,
-        "can_teleport": false
       }
     },
     "region": "kvaris",
@@ -10249,12 +10159,6 @@
         "cost": 118.90542460291708,
         "can_teleport": false
       },
-      "pentalite9": {
-        "lat": -849.25,
-        "lng": 234.0,
-        "cost": 146.3943731842177,
-        "can_teleport": false
-      },
       "photonchunk1": {
         "lat": -1107.75,
         "lng": 288.75,
@@ -10293,12 +10197,6 @@
         "cost": 63.69311187247801,
         "can_teleport": false
       },
-      "pentalite10": {
-        "lat": -853.25,
-        "lng": 279.5,
-        "cost": 111.28398357355833,
-        "can_teleport": false
-      },
       "photonquartz21": {
         "lat": -989.75,
         "lng": 375.5,
@@ -10310,24 +10208,6 @@
         "lng": 245.0,
         "cost": 148.92384798950098,
         "can_teleport": true
-      },
-      "pentalite8": {
-        "lat": -844.5,
-        "lng": 194.5,
-        "cost": 145.48217244734835,
-        "can_teleport": false
-      },
-      "pentalite9": {
-        "lat": -849.25,
-        "lng": 234.0,
-        "cost": 122.92324841135627,
-        "can_teleport": false
-      },
-      "pentalite11": {
-        "lat": -822.5,
-        "lng": 245.25,
-        "cost": 145.45188207788857,
-        "can_teleport": false
       },
       "photonchunk1": {
         "lat": -1107.75,
@@ -10341,35 +10221,11 @@
         "cost": 141.54327960026927,
         "can_teleport": false
       },
-      "trinite4": {
-        "lat": -823.0,
-        "lng": 318.5,
-        "cost": 147.53071714053314,
-        "can_teleport": false
-      },
       "altersRush": {
         "lat": -1084.5,
         "lng": 171.5,
         "cost": 159.6169242279778,
         "can_teleport": true
-      },
-      "pentalite2": {
-        "lat": -817.0,
-        "lng": 363.75,
-        "cost": 171.24616784033446,
-        "can_teleport": false
-      },
-      "pentalite5": {
-        "lat": -792.0,
-        "lng": 291.25,
-        "cost": 173.1083475745754,
-        "can_teleport": false
-      },
-      "pentalite12": {
-        "lat": -813.25,
-        "lng": 219.0,
-        "cost": 161.9000463248853,
-        "can_teleport": false
       },
       "photonquartz17": {
         "lat": -1119.5,
@@ -10409,47 +10265,11 @@
         "cost": 95.08713109564302,
         "can_teleport": false
       },
-      "pentalite2": {
-        "lat": -817.0,
-        "lng": 363.75,
-        "cost": 142.000220070252,
-        "can_teleport": false
-      },
-      "pentalite10": {
-        "lat": -853.25,
-        "lng": 279.5,
-        "cost": 120.10125936059121,
-        "can_teleport": false
-      },
-      "trinite4": {
-        "lat": -823.0,
-        "lng": 318.5,
-        "cost": 135.71385338277003,
-        "can_teleport": false
-      },
       "swiftJump": {
         "lat": -1121.5,
         "lng": 406.5,
         "cost": 177.43308597891206,
         "can_teleport": true
-      },
-      "pentalite5": {
-        "lat": -792.0,
-        "lng": 291.25,
-        "cost": 172.05104620431695,
-        "can_teleport": false
-      },
-      "pentalite9": {
-        "lat": -849.25,
-        "lng": 234.0,
-        "cost": 151.14913992477761,
-        "can_teleport": false
-      },
-      "pentalite11": {
-        "lat": -822.5,
-        "lng": 245.25,
-        "cost": 164.52298471642192,
-        "can_teleport": false
       },
       "photonchunk1": {
         "lat": -1107.75,
@@ -10463,65 +10283,11 @@
         "cost": 164.8796909870952,
         "can_teleport": false
       },
-      "trinite5": {
-        "lat": -813.0,
-        "lng": 395.0,
-        "cost": 154.1460346554526,
-        "can_teleport": false
-      },
       "altolaniPlateau": {
         "lat": -1110.0,
         "lng": 245.0,
         "cost": 180.09441968034434,
         "can_teleport": true
-      },
-      "quillMountainLoad": {
-        "lat": -959.0,
-        "lng": 541.0,
-        "cost": 201.00995000248122,
-        "can_teleport": true
-      },
-      "mtIhanaWest": {
-        "lat": -791.0,
-        "lng": 223.0,
-        "cost": 203.08865059377396,
-        "can_teleport": true
-      },
-      "mtIhanaEast": {
-        "lat": -794.0,
-        "lng": 425.0,
-        "cost": 183.83144453547658,
-        "can_teleport": true
-      },
-      "pentalite0": {
-        "lat": -775.25,
-        "lng": 392.75,
-        "cost": 189.25016512542334,
-        "can_teleport": false
-      },
-      "pentalite1": {
-        "lat": -778.25,
-        "lng": 363.0,
-        "cost": 180.22364578489695,
-        "can_teleport": false
-      },
-      "pentalite4": {
-        "lat": -772.5,
-        "lng": 255.25,
-        "cost": 203.03401808564,
-        "can_teleport": false
-      },
-      "pentalite8": {
-        "lat": -844.5,
-        "lng": 194.5,
-        "cost": 183.91981948664477,
-        "can_teleport": false
-      },
-      "pentalite12": {
-        "lat": -813.25,
-        "lng": 219.0,
-        "cost": 187.89641428191226,
-        "can_teleport": false
       },
       "photonquartz13": {
         "lat": -1116.75,
@@ -10615,40 +10381,10 @@
         "cost": 177.45509995489,
         "can_teleport": true
       },
-      "quillMountainLoad": {
-        "lat": -959.0,
-        "lng": 541.0,
-        "cost": 168.3324463673002,
-        "can_teleport": true
-      },
-      "pentalite2": {
-        "lat": -817.0,
-        "lng": 363.75,
-        "cost": 173.1491409161478,
-        "can_teleport": false
-      },
-      "pentalite10": {
-        "lat": -853.25,
-        "lng": 279.5,
-        "cost": 166.87794941213772,
-        "can_teleport": false
-      },
       "photonquartz15": {
         "lat": -1140.75,
         "lng": 341.0,
         "cost": 154.89109077025702,
-        "can_teleport": false
-      },
-      "trinite4": {
-        "lat": -823.0,
-        "lng": 318.5,
-        "cost": 176.2230475845881,
-        "can_teleport": false
-      },
-      "trinite5": {
-        "lat": -813.0,
-        "lng": 395.0,
-        "cost": 177.8224184404205,
         "can_teleport": false
       },
       "trinite7": {
@@ -11629,18 +11365,6 @@
         "lat": -795.5,
         "lng": 173.25,
         "cost": 147.83035040207406,
-        "can_teleport": false
-      },
-      "photonquartz19": {
-        "lat": -964.5,
-        "lng": 276.75,
-        "cost": 147.53071714053314,
-        "can_teleport": false
-      },
-      "photonquartz20": {
-        "lat": -957.0,
-        "lng": 340.0,
-        "cost": 135.71385338277003,
         "can_teleport": false
       }
     },

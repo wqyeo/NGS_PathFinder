@@ -78,7 +78,7 @@ def _get_map_markers() -> list[_Marker]:
                 lat = data["lat"]
                 lng = data["lng"]
                 can_teleport = data_file_teleport[1]
-                region = data["region"]
+                region = data["region"].lower()
                 map_marker_data = _Marker(
                     node_id, lat, lng, can_teleport, region)
                 map_markers.append(map_marker_data)
@@ -107,6 +107,10 @@ def _gather_in_radius(
             continue
         # Already included in path...
         if marker.node_id in current_node_ref.node_cost_ref:
+            continue
+
+        # Both nodes are in different region, don't include.
+        if marker.region != current_node_ref.region:
             continue
 
         distance = _calculate_distance(
