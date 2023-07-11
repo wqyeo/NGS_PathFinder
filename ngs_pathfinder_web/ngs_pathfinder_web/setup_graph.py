@@ -10,6 +10,8 @@ BLUE = "\033[34m"
 GREEN = "\033[32m"
 YELLOW = "\033[33m"
 
+SEARCH_RADIUS_INCREMENT = 30.0
+
 
 class _GraphNode:
 
@@ -150,12 +152,12 @@ def _create_heu_graph():
         print("Searching node reference for node " + marker.node_id)
 
         has_sufficient_node_ref = False
-        gather_radius = 10.0
+        gather_radius = SEARCH_RADIUS_INCREMENT
         while not has_sufficient_node_ref:
             has_sufficient_node_ref = _gather_in_radius(
                 current_node, map_markers, gather_radius
             )
-            gather_radius += 10.0
+            gather_radius += SEARCH_RADIUS_INCREMENT
 
         # Gather one last time with expanded search radius
         _gather_in_radius(current_node, map_markers, gather_radius)
