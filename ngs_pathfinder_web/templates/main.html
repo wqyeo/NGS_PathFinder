@@ -19,7 +19,7 @@
         {% csrf_token %}
       </form>
       <buttons>
-        <button id="showSettingButton" onClick="nothing()">
+        <button id="showSettingButton" onClick="generateHeuGraph()">
           <img alt="" src="{% static 'images/icons/settings.png' %}"/>
           <div>Map Settings</div>
         </button>
@@ -36,10 +36,10 @@
     <div id="form-container">
         <form>
             <div>
-                <input type="text" id="nameId" placeholder="mineral id">
-              </div>
+                <input type="text" id="nodeId" placeholder="node Id">
+              </div> 
           <div>
-            <input type="text" id="type" placeholder="mineral type">
+            <input type="text" id="height" placeholder="height of the node">
           </div>
           <div>
             <input type="text" id="region" placeholder="region it is in">
@@ -47,7 +47,7 @@
         </form>
       </div>
     </navbar>
-  -->
+      -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 

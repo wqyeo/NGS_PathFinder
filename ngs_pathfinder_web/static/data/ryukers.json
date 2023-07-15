@@ -1,5 +1,4 @@
-[
-    {
+[{
         "lat": -1110,
         "lng": 245,
         "region": "aelio",
@@ -39,7 +38,8 @@
         "lat": -1752,
         "lng": 314,
         "region": "aelio",
-        "id": "aelioTownRuins"
+        "id": "aelioTownRuins",
+        "height": 2
     },
     {
         "lat": -1532,
@@ -105,7 +105,8 @@
         "lat": -1777.25,
         "lng": 487.5,
         "region": "aelio",
-        "id": "balflowFallsWest"
+        "id": "balflowFallsWest",
+        "height": 2
     },
     {
         "lat": -1213,
@@ -225,7 +226,8 @@
         "lat": -791,
         "lng": 223,
         "region": "kvaris",
-        "id": "mtIhanaWest"
+        "id": "mtIhanaWest",
+        "height": 3
     },
     {
         "lat": -794,

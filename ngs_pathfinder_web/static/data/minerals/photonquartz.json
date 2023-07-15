@@ -59,21 +59,24 @@
         "type": "Photon Quartz",
         "lat": "-1117.5",
         "lng": "377.75",
-        "region": "aelio"
+        "region": "aelio",
+        "height": "3"
     },
     {
         "id": "photonquartz15",
         "type": "Photon Quartz",
         "lat": "-1140.75",
         "lng": "341",
-        "region": "aelio"
+        "region": "aelio",
+        "height": "3"
     },
     {
         "id": "photonquartz16",
         "type": "Photon Quartz",
         "lat": "-1158.5",
         "lng": "297.25",
-        "region": "aelio"
+        "region": "aelio",
+        "height": "3"
     },
     {
         "id": "photonquartz17",
@@ -120,9 +123,10 @@
     {
         "id": "photonquartz23",
         "type": "Photon Quartz",
-        "lat": "-1502",
-        "lng": "372",
-        "region": "aelio"
+        "lat": -1502,
+        "lng": 372,
+        "region": "aelio",
+        "height": 2
     },
     {
         "id": "photonquartz24",
@@ -136,14 +140,16 @@
         "type": "Photon Quartz",
         "lat": "-1605.25",
         "lng": "378.25",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 4
     },
     {
         "id": "photonquartz26",
         "type": "Photon Quartz",
         "lat": "-1586.25",
         "lng": "414",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 1
     },
     {
         "id": "photonquartz27",
@@ -213,20 +219,23 @@
         "type": "Photon Quartz",
         "lat": "-497.5",
         "lng": "1573",
-        "region": "stia"
+        "region": "stia",
+        "height": 3
     },
     {
         "id": "photonquartz37",
         "type": "Photon Quartz",
         "lat": "-494",
         "lng": "1606.5",
-        "region": "stia"
+        "region": "stia",
+        "height": 3
     },
     {
         "id": "photonquartz38",
         "type": "Photon Quartz",
         "lat": "-429",
         "lng": "1547.5",
-        "region": "stia"
+        "region": "stia",
+        "height": 3
     }
 ]

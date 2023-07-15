@@ -1,5 +1,4 @@
-[
-    {
+[{
         "lat": -1580,
         "lng": 172,
         "region": "aelio",
@@ -18,7 +17,8 @@
         "lng": 647,
         "region": "aelio",
         "string": "priceless",
-        "id": "aelioPricelessMag"
+        "id": "aelioPricelessMag",
+        "height": 3
     },
     {
         "lat": -1875,

@@ -16,10 +16,6 @@ function _loadTower(jsonData) {
             direction: 'top'
         });
 
-        marker.on("click", (e) => {
-            registerPathNode(towerData.id, towerData.lat, towerData.lng, "tower", "aelio");
-        });
-
         if (pathNodeExists(towerData.id)) {
             const result = marker.setOpacity(0.5);
 

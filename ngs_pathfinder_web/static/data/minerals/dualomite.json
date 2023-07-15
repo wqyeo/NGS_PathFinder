@@ -24,21 +24,24 @@
         "type": "Dualomite",
         "lat": "-766.5",
         "lng": "833.5",
-        "region": "kvaris"
+        "region": "kvaris",
+        "height": 2
     },
     {
         "id": "dualomite4",
         "type": "Dualomite",
         "lat": "-796",
         "lng": "813.375",
-        "region": "kvaris"
+        "region": "kvaris",
+        "height": 3
     },
     {
         "id": "dualomite5",
         "type": "Dualomite",
         "lat": "-824.375",
         "lng": "783.5",
-        "region": "kvaris"
+        "region": "kvaris",
+        "height": 4
     },
     {
         "id": "dualomite6",
@@ -52,7 +55,8 @@
         "type": "Dualomite",
         "lat": "-873",
         "lng": "681.25",
-        "region": "kvaris"
+        "region": "kvaris",
+        "height": 3
     },
     {
         "id": "dualomite8",
@@ -73,7 +77,8 @@
         "type": "Dualomite",
         "lat": "-878.75",
         "lng": "710.5",
-        "region": "kvaris"
+        "region": "kvaris",
+        "height": 2
     },
     {
         "id": "dualomite11",
@@ -136,14 +141,16 @@
         "type": "Dualomite",
         "lat": "-1741",
         "lng": "272",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 1
     },
     {
         "id": "dualomite20",
         "type": "Dualomite",
         "lat": "-1816.75",
         "lng": "233.75",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 1
     },
     {
         "id": "dualomite21",
@@ -157,49 +164,56 @@
         "type": "Dualomite",
         "lat": "-1874.75",
         "lng": "238.5",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 3
     },
     {
         "id": "dualomite23",
         "type": "Dualomite",
         "lat": "-1800",
         "lng": "383.25",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 2
     },
     {
         "id": "dualomite24",
         "type": "Dualomite",
         "lat": "-1880.5",
         "lng": "319.75",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 2
     },
     {
         "id": "dualomite25",
         "type": "Dualomite",
         "lat": "-1885",
         "lng": "427.25",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 3
     },
     {
         "id": "dualomite26",
         "type": "Dualomite",
         "lat": "-1888",
         "lng": "506",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 4
     },
     {
         "id": "dualomite27",
         "type": "Dualomite",
         "lat": "-1830.25",
         "lng": "486.75",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 3
     },
     {
         "id": "dualomite28",
         "type": "Dualomite",
         "lat": "-1786.5",
         "lng": "524.375",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 2
     },
     {
         "id": "dualomite29",
@@ -220,42 +234,48 @@
         "type": "Dualomite",
         "lat": "-1815.75",
         "lng": "764.75",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 3
     },
     {
         "id": "dualomite32",
         "type": "Dualomite",
         "lat": "-1872.5",
         "lng": "739",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 3
     },
     {
         "id": "dualomite33",
         "type": "Dualomite",
         "lat": "-1875.25",
         "lng": "658",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 1
     },
     {
         "id": "dualomite34",
         "type": "Dualomite",
         "lat": "-1737.875",
         "lng": "856.625",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 4
     },
     {
         "id": "dualomite35",
         "type": "Dualomite",
         "lat": "-1709.875",
         "lng": "809.375",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 2
     },
     {
         "id": "dualomite36",
         "type": "Dualomite",
         "lat": "-1711.5",
         "lng": "882.25",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 4
     },
     {
         "id": "dualomite37",

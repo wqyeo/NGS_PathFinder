@@ -1,0 +1,92 @@
+[{
+        "id": "aelioNode0",
+        "height": 1.0,
+        "lat": -1666.75,
+        "lng": 325.25,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode1",
+        "height": 2.0,
+        "lat": -1625.25,
+        "lng": 317.5,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode2",
+        "height": 3.0,
+        "lat": -1602.25,
+        "lng": 350.25,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode3",
+        "height": 1.0,
+        "lat": -1508.0,
+        "lng": 402.5,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode4",
+        "height": 1.0,
+        "lat": -1477.0,
+        "lng": 358.5,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode5",
+        "height": 2.0,
+        "lat": -1505.5,
+        "lng": 346.5,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode6",
+        "height": 3.0,
+        "lat": -1521.75,
+        "lng": 352.75,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode7",
+        "height": 1.0,
+        "lat": -1830.0,
+        "lng": 569.25,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode8",
+        "height": 2.0,
+        "lat": -1819.5,
+        "lng": 555.0,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode9",
+        "height": 3.0,
+        "lat": -1819.25,
+        "lng": 525.25,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode10",
+        "height": 4.0,
+        "lat": -1840.0,
+        "lng": 489.75,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode11",
+        "height": 3.0,
+        "lat": -1843.5,
+        "lng": 734.25,
+        "region": "aelio"
+    },
+    {
+        "id": "aelioNode12",
+        "height": 4.0,
+        "lat": -1878.125,
+        "lng": 715.125,
+        "region": "aelio"
+    }
+]

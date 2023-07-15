@@ -101,21 +101,24 @@
         "type": "Trinite",
         "lat": "-1733",
         "lng": "404.25",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 2
     },
     {
         "id": "trinite15",
         "type": "Trinite",
         "lat": "-1884.25",
         "lng": "456",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 3
     },
     {
         "id": "trinite16",
         "type": "Trinite",
         "lat": "-1937",
         "lng": "373.75",
-        "region": "aelio"
+        "region": "aelio",
+        "height": 2
     },
     {
         "id": "trinite17",

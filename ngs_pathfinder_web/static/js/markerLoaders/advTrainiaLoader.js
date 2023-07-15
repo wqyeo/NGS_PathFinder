@@ -16,16 +16,6 @@ function _loadAdvTrainia(jsonData) {
             direction: 'top'
         });
 
-        marker.on("click", (e) => {
-            const result = registerPathNode(trainiaData.id, trainiaData.lat, trainiaData.lng, "advTrainia", "aelio");
-
-            if (result) {
-                marker.setOpacity(0.5);
-            } else {
-                marker.setOpacity(1);
-            }
-        });
-
         if (pathNodeExists(trainiaData.id)) {
             marker.setOpacity(0.5);
         }

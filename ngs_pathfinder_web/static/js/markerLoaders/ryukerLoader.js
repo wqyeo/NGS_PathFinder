@@ -15,16 +15,6 @@ function _loadRyuker(jsonData) {
             direction: 'top'
         });
 
-        marker.on("click", (e) => {
-            const result = registerPathNode(ryukerData.id, ryukerData.lat, ryukerData.lng, "ryuker", "aelio");
-
-            if (result) {
-                marker.setOpacity(0.5);
-            } else {
-                marker.setOpacity(1);
-            }
-        });
-
         if (pathNodeExists(ryukerData.id)) {
             marker.setOpacity(0.5);
         }

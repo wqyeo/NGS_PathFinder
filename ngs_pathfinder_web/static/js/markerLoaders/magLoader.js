@@ -31,10 +31,6 @@ function _loadMag(jsonData) {
             direction: 'top'
         });
 
-        marker.on("click", (e) => {
-            registerPathNode(magData.id, magData.lat, magData.lng, "mag", "aelio");
-        });
-
         if (pathNodeExists(magData.id)) {
             const result = marker.setOpacity(0.5);
 

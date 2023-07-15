@@ -1,121 +1,126 @@
-[
-  {
-    "id": "pentalite0",
-    "type": "Pentalite",
-    "lat": "-775.25",
-    "lng": "392.75",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite1",
-    "type": "Pentalite",
-    "lat": "-778.25",
-    "lng": "363",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite2",
-    "type": "Pentalite",
-    "lat": "-817",
-    "lng": "363.75",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite3",
-    "type": "Pentalite",
-    "lat": "-732.75",
-    "lng": "314",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite4",
-    "type": "Pentalite",
-    "lat": "-772.5",
-    "lng": "255.25",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite5",
-    "type": "Pentalite",
-    "lat": "-792",
-    "lng": "291.25",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite6",
-    "type": "Pentalite",
-    "lat": "-737.25",
-    "lng": "264.5",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite7",
-    "type": "Pentalite",
-    "lat": "-747.5",
-    "lng": "227.75",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite8",
-    "type": "Pentalite",
-    "lat": "-844.5",
-    "lng": "194.5",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite9",
-    "type": "Pentalite",
-    "lat": "-849.25",
-    "lng": "234",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite10",
-    "type": "Pentalite",
-    "lat": "-853.25",
-    "lng": "279.5",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite11",
-    "type": "Pentalite",
-    "lat": "-822.5",
-    "lng": "245.25",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite12",
-    "type": "Pentalite",
-    "lat": "-813.25",
-    "lng": "219",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite13",
-    "type": "Pentalite",
-    "lat": "-795.5",
-    "lng": "173.25",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite14",
-    "type": "Pentalite",
-    "lat": "-770",
-    "lng": "147.25",
-    "region": "kvaris"
-  },
-  {
-    "id": "pentalite15",
-    "type": "Pentalite",
-    "lat": "-700",
-    "lng": "1151",
-    "region": "stia"
-  },
-  {
-    "id": "pentalite16",
-    "type": "Pentalite",
-    "lat": "-656.5",
-    "lng": "1394",
-    "region": "stia"
-  }
+[{
+        "id": "pentalite0",
+        "type": "Pentalite",
+        "lat": "-775.25",
+        "lng": "392.75",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite1",
+        "type": "Pentalite",
+        "lat": "-778.25",
+        "lng": "363",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite2",
+        "type": "Pentalite",
+        "lat": "-817",
+        "lng": "363.75",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite3",
+        "type": "Pentalite",
+        "lat": "-732.75",
+        "lng": "314",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite4",
+        "type": "Pentalite",
+        "lat": "-772.5",
+        "lng": "255.25",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite5",
+        "type": "Pentalite",
+        "lat": "-792",
+        "lng": "291.25",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite6",
+        "type": "Pentalite",
+        "lat": "-737.25",
+        "lng": "264.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite7",
+        "type": "Pentalite",
+        "lat": "-747.5",
+        "lng": "227.75",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite8",
+        "type": "Pentalite",
+        "lat": "-844.5",
+        "lng": "194.5",
+        "region": "kvaris",
+        "height": 3
+    },
+    {
+        "id": "pentalite9",
+        "type": "Pentalite",
+        "lat": "-849.25",
+        "lng": "234",
+        "region": "kvaris",
+        "height": 3
+    },
+    {
+        "id": "pentalite10",
+        "type": "Pentalite",
+        "lat": "-853.25",
+        "lng": "279.5",
+        "region": "kvaris"
+    },
+    {
+        "id": "pentalite11",
+        "type": "Pentalite",
+        "lat": "-822.5",
+        "lng": "245.25",
+        "region": "kvaris",
+        "height": 3
+    },
+    {
+        "id": "pentalite12",
+        "type": "Pentalite",
+        "lat": "-813.25",
+        "lng": "219",
+        "region": "kvaris",
+        "height": 3
+    },
+    {
+        "id": "pentalite13",
+        "type": "Pentalite",
+        "lat": "-795.5",
+        "lng": "173.25",
+        "region": "kvaris",
+        "height": 4
+    },
+    {
+        "id": "pentalite14",
+        "type": "Pentalite",
+        "lat": "-770",
+        "lng": "147.25",
+        "region": "kvaris",
+        "height": 0
+    },
+    {
+        "id": "pentalite15",
+        "type": "Pentalite",
+        "lat": "-700",
+        "lng": "1151",
+        "region": "stia"
+    },
+    {
+        "id": "pentalite16",
+        "type": "Pentalite",
+        "lat": "-656.5",
+        "lng": "1394",
+        "region": "stia"
+    }
 ]

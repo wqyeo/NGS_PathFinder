@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "firstStep",
         "lat": -1306,
         "lng": 681.75,
@@ -38,7 +37,8 @@
         "enemyLv": 5,
         "challenge": true,
         "region": "aelio",
-        "title": "Wild Rush"
+        "title": "Wild Rush",
+        "height": 4
     },
     {
         "id": "testFlight",
@@ -80,7 +80,8 @@
         "minBP": 1009,
         "enemyLv": 10,
         "region": "aelio",
-        "title": "Runway"
+        "title": "Runway",
+        "height": 4
     },
     {
         "id": "vanishingPath",

@@ -32,16 +32,6 @@ function _loadBattledia(jsonData) {
             direction: 'top'
         });
 
-        marker.on("click", (e) => {
-            const result = registerPathNode(battlediaData.id, battlediaData.lat, battlediaData.lng, "battledia", "aelio");
-
-            if (result) {
-                marker.setOpacity(0.5);
-            } else {
-                marker.setOpacity(1);
-            }
-        });
-
         if (pathNodeExists(battlediaData.id)) {
             marker.setOpacity(0.5);
         }
