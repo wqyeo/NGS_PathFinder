@@ -32,10 +32,6 @@ function _loadBattledia(jsonData) {
             direction: 'top'
         });
 
-        if (pathNodeExists(battlediaData.id)) {
-            marker.setOpacity(0.5);
-        }
-
         marker.addTo(map);
     }
 }

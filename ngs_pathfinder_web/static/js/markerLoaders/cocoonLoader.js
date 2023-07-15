@@ -16,10 +16,6 @@ function _loadCocoon(jsonData) {
             direction: 'top'
         });
 
-        if (pathNodeExists(cocoonData.id)) {
-            marker.setOpacity(0.5);
-        }
-
         marker.addTo(map);
     }
 }

@@ -31,16 +31,6 @@ function _loadMag(jsonData) {
             direction: 'top'
         });
 
-        if (pathNodeExists(magData.id)) {
-            const result = marker.setOpacity(0.5);
-
-            if (result) {
-                marker.setOpacity(0.5);
-            } else {
-                marker.setOpacity(1);
-            }
-        }
-
         marker.addTo(map);
     }
 }

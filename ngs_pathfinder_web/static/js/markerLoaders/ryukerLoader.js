@@ -15,10 +15,6 @@ function _loadRyuker(jsonData) {
             direction: 'top'
         });
 
-        if (pathNodeExists(ryukerData.id)) {
-            marker.setOpacity(0.5);
-        }
-
         marker.addTo(map);
     }
 }

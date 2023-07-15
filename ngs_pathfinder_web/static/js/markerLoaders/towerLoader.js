@@ -15,17 +15,6 @@ function _loadTower(jsonData) {
         marker.bindTooltip(tooltipContent, {
             direction: 'top'
         });
-
-        if (pathNodeExists(towerData.id)) {
-            const result = marker.setOpacity(0.5);
-
-            if (result) {
-                marker.setOpacity(0.5);
-            } else {
-                marker.setOpacity(1);
-            }
-        }
-
         marker.addTo(map);
     }
 }

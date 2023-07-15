@@ -16,10 +16,6 @@ function _loadAdvTrainia(jsonData) {
             direction: 'top'
         });
 
-        if (pathNodeExists(trainiaData.id)) {
-            marker.setOpacity(0.5);
-        }
-
         marker.addTo(map);
     }
 }

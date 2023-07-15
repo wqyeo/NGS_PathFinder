@@ -49,20 +49,6 @@ async function _loadMinerals(jsonData) {
             direction: 'top'
         });
 
-        marker.on("click", (e) => {
-            const result = registerPathNode(mineralData.id, mineralData.lat, mineralData.lng, "mineral", mineralData.region);
-
-            if (result) {
-                marker.setOpacity(0.5);
-            } else {
-                marker.setOpacity(1);
-            }
-        });
-
-        if (pathNodeExists(mineralData.id)) {
-            marker.setOpacity(0.5);
-        }
-
         // Create Circle
         const circleSettings = _findCircleSettingByMineral(colorSettings, mineralData);
         const circle = L.circle([mineralData.lat, mineralData.lng], {
@@ -72,9 +58,34 @@ async function _loadMinerals(jsonData) {
             fillOpacity: 0.25
         });
 
+        marker.on("click", (e) => {
+            // Register to pathfinding if selected
+            const result = registerPathNode(mineralData.id);
+
+            if (result) {
+                marker.setOpacity(0.35);
+                circle.setStyle({
+                    fillOpacity: 0.1
+                });
+            } else {
+                marker.setOpacity(1);
+                circle.setStyle({
+                    fillOpacity: 0.25
+                });
+            }
+        });
+
         // Make circle + marker into group and add to map
         const mineralGroup = L.layerGroup([circle, marker]);
         mineralGroup.addTo(map);
+
+        // Set opacity if this node was selected before
+        if (pathNodeExists(mineralData.id)) {
+            marker.setOpacity(0.35);
+            circle.setStyle({
+                fillOpacity: 0.1
+            });
+        }
     }
 }
 

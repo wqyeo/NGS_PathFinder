@@ -1,5 +1,5 @@
 // Function to locally store all the nodes to pathfind
-function registerPathNode(nodeId, lat, lng, category, region) {
+function registerPathNode(nodeId) {
     if (pathNodeExists(nodeId)) {
         localStorage.removeItem(nodeId);
         console.log("Removed " + nodeId)
@@ -7,10 +7,7 @@ function registerPathNode(nodeId, lat, lng, category, region) {
     }
 
     const entry = {
-        "lat": lat,
-        "lng": lng,
-        "category": category,
-        "region": region
+        "isNodeFlag": true
     };
 
     localStorage.setItem(nodeId, JSON.stringify(entry));
@@ -23,26 +20,23 @@ function pathNodeExists(nodeId) {
 }
 
 function _isValidPathNode(pathNodeData) {
-    const requiredKeys = [
-        "lat", "lng", "category", "region"
-    ];
-
-    for (const requiredKey in requiredKeys) {
-        if (!(requiredKey in pathNodeData)) {
-            return false;
-        }
+    if (!("isNodeFlag" in pathNodeData)) {
+        return false;
     }
 
     return true;
 }
 
 function getAllPathNodes() {
-    var result = {};
+    var result = [];
 
     for (var i = 0; i < localStorage.length; ++i) {
         var key = localStorage.key(i)
         var data = JSON.parse(localStorage.getItem(key));
-        result[key] = data;
+
+        if (_isValidPathNode(data)) {
+            result.push(key);
+        }
     }
 
     return result;

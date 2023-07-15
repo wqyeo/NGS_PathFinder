@@ -152,7 +152,7 @@ def _gather_in_radius(
 
         cost = _calculate_cost(current_node_ref, marker, distance)
         connected_node = _NodeReference(
-            marker.node_id, float(marker.lat), float(marker.lng), distance, marker.height, distance, marker.can_teleport, is_path_node
+            marker.node_id, float(marker.lat), float(marker.lng), distance, marker.height, cost, marker.can_teleport, is_path_node
         )
 
         # Add to list of possible nodes to traverse to.
@@ -174,9 +174,6 @@ def _create_heu_graph():
     graph_nodes = {}
     print(BLUE + "Creating heuresitic graph nodes..." + END)
     for marker in map_markers:
-        if "aelioNode" in marker.node_id:
-            continue
-        
         current_node = _GraphNode(
             marker.node_id, marker.lat, marker.lng, marker.height, marker.region)
         print("Searching node reference for node " + marker.node_id)
@@ -192,6 +189,12 @@ def _create_heu_graph():
         # Gather one last time with expanded search radius
         _gather_in_radius(current_node, map_markers, gather_radius)
         graph_nodes[marker.node_id] = current_node
+
+        # Make every node reference have a unique node_id
+        unique_nodes = {}
+        for node_reference in current_node.node_cost_ref:
+            unique_nodes[node_reference.node_id] = node_reference
+        current_node.node_cost_ref = list(unique_nodes.values())
 
         # Sort the reference list by increasing order.
         # NOTE: So that we know the first reference result is always the shortest path

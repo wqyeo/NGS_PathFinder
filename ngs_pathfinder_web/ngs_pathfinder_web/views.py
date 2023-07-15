@@ -5,7 +5,6 @@ import io
 
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
-from .node import Node
 from .pathfinder import find_shortest_path
 from .setup_graph import generate_heu_graph_data
 
@@ -97,31 +96,14 @@ def add_mineral_node(request):
 def do_pathfind(request):
     if request.method == "POST":
         data = json.loads(request.body)
-        print(data)
         if (len(data)) <= 1:
+            print("Had nothing in data!")
             return JsonResponse({"paths": None})
 
-        nodes = []
-        for key, value in data.items():
-            new_node = Node(
-                key, value["lat"], value["lng"], value["category"], value["region"]
-            )
-            nodes.append(new_node)
+        shortest_path = find_shortest_path(data)
 
-        # Do a simple, dummy pathfinding for now.
-        shortest_path = find_shortest_path(nodes)
-
-        result = []
-        for node in shortest_path:
-            node_dict = {
-                "id": node.get_id(),
-                "lat": node.get_lat(),
-                "lng": node.get_lng(),
-                "category": node.get_category(),
-                "region": node.get_region(),
-            }
-            result.append(node_dict)
-        return JsonResponse({"paths": result})
+        return JsonResponse({ "result": shortest_path})
+    print("JSON Response isn't a POST request!")
     return JsonResponse({"paths": None})
 
 
