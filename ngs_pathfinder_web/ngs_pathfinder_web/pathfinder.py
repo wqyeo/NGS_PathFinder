@@ -12,15 +12,19 @@ class _Node:
         self.node_reference = node_references
 
     def find_closest_teleporter(self) -> dict:
+        print("Finding closest teleporter for " + self.node_id)
         # Find closest teleporter to a node
         least_cost = 99999999999.99
         least_cost_node = {}
         for ref in self.node_reference:
+            if not ref["can_teleport"]:
+                continue
+
             current_cost = float(ref["cost"])
             if current_cost < least_cost:
                 least_cost = current_cost
                 least_cost_node = ref
-        return ref
+        return least_cost_node
 
 def _get_pathfind_nodes_data(input: list[str], heu_graph) -> dict:
     # Get all data of nodes to pathfind through.
@@ -163,9 +167,13 @@ def find_shortest_path(input) -> list:
 
     # Fetch a first node
     current_node = _find_starting_node(pathfind_nodes)
+    print("Starting at " + current_node.node_id)
 
     # Start from the very first teleporter closest to the first node
     starting_point = current_node.find_closest_teleporter()
+
+    # TODO: Re-evaluate closest node to traverse to again.
+    # (Move towards a node that is the closest to the teleporter instead)
     result.append({
         "lat": float(starting_point["lat"]),
         "lng": float(starting_point["lng"])

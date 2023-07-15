@@ -1,3 +1,5 @@
+const POLYLINE_REFERENCE = []
+
 function generateHeuGraph() {
     $.ajax({
         url: "generate-graph/",
@@ -9,6 +11,38 @@ function generateHeuGraph() {
             console.error(error);
         },
     });
+}
+
+function _removeAllDrawnPaths() {
+    POLYLINE_REFERENCE.forEach(function(polylineRef) {
+        map.removeLayer(polylineRef)
+    });
+    POLYLINE_REFERENCE.length = 0;
+}
+
+function _drawPath(pathArray) {
+    _removeAllDrawnPaths();
+    var current = pathArray[0];
+
+    for (var i = 1; i < pathArray.length; i++) {
+        var next = pathArray[i];
+
+        const from = [current["lat"], current["lng"]];
+        const to = [next["lat"], next["lng"]];
+
+        var polylineOptions = {
+            color: 'red'
+        };
+        // Draw dotted to indicate teleportation, if needed
+        if (next["tp"]) {
+            polylineOptions.dashArray = '10, 5';
+        }
+
+        const pathLine = L.polyline([from, to], polylineOptions).addTo(map);
+        POLYLINE_REFERENCE.push(pathLine)
+
+        current = next;
+    }
 }
 
 function showPathFinding() {
@@ -26,8 +60,11 @@ function showPathFinding() {
         },
         data: allNodes,
         success: function(response) {
-            console.log(response["result"]);
-            console.log(response["result"].length);
+            const pathResult = response["result"];
+            console.log(pathResult);
+            console.log(pathResult.length);
+
+            _drawPath(pathResult);
         },
         error: function(xhr, status, error) {
             console.error(error);
