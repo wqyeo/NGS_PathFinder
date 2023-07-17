@@ -1,6 +1,7 @@
 import os
 import json
 import math
+import heapq
 
 class _Node:
     def __init__(self, node_id: str, lat: float, lng: float, height: float, region: str, node_references: list):
@@ -26,10 +27,10 @@ class _Node:
                 least_cost_node = ref
         return least_cost_node
 
-def _get_pathfind_nodes_data(input: list[str], heu_graph) -> dict:
+def _get_pathfind_nodes_data(input_list: list[str], heu_graph) -> dict:
     # Get all data of nodes to pathfind through.
     pathfind_nodes = {}
-    for node_id in input:
+    for node_id in input_list:
         if not node_id in heu_graph:
             print("Node ID of " + str(node_id) + " not found in graph! Skipping...")
             continue
@@ -58,15 +59,75 @@ def _load_heu_graph() -> dict:
         heu_graph_data = json.load(file)
     return heu_graph_data
 
-def _query_path_node_reachable(path_node_id: str, destination_node: _Node, heu_graph_ref: dict, recursive_list: list) -> list:
+def _query_path_node_reachable(path_node_id: str, destination_node: _Node, heu_graph_ref: dict) -> list:
+    # Build a tiny graph first containing all possible nodes
+    # connected to the destinations
+
+    def construct_graph(from_id: str, key_source: _Node, graph_rec: dict) -> None:
+        graph[from_id] = {}
+        current_paths = {}
+        node_references = heu_graph_ref[from_id]["node_cost_ref"]
+        for node_ref in node_references:
+            is_valid_path = node_ref["is_path_node"] or node_ref["node_id"] == key_source.node_id
+            if not is_valid_path:
+                continue
+            current_node_id = node_ref["node_id"]
+            current_paths[current_node_id] = node_ref["cost"]
+
+            if not current_node_id in graph_rec:
+                construct_graph(current_node_id, key_source, graph_rec)
+        graph_rec[from_id] = current_paths
+
+    graph = {}
+    construct_graph(destination_node.node_id, destination_node, graph)
+
+    # Graph built, now do dijkstra
+    distances = {node: float('inf') for node in graph}
+    distances[path_node_id] = 0
+    visited = []
+    # Create a dicitonary that points to the previous path
+    # NOTE: Creating a path indicating where to go for the shortest distance.
+    previous = {node: None for node in graph}
+    queue = [(0, path_node_id)]
+
+    while queue:
+        current_distance, current_node = heapq.heappop(queue)
+        
+        if current_node in visited:
+            continue
+        visited.append(current_node)
+        
+        # Explore neighbours
+        for neighbor, weight in graph[current_node].items():
+            distance = current_distance + weight
+            
+            # Shorter distance found, override.
+            if distance < distances[neighbor]:
+                distances[neighbor] = distance
+                previous[neighbor] = current_node
+                heapq.heappush(queue, (distance, neighbor))
     
-    return recursive_list
+    return distances, previous
 
 def _query_fastest_path_to(from_node: _Node, to_node_query: _Node, heu_graph_ref: dict) -> list:
-    
+    def fetch_shortest_path(previous, target):
+        # Fetch shortest path from dijkstra
+        path = []
+        current_node = target
+        
+        while current_node is not None:
+            path.insert(0, current_node)
+            current_node = previous[current_node]
+        
+        return path
+
     # NOTE: The reference query is already sorted by cost, in ascending order
     fastest_path = None
     fastest_direct_path_found = False
+    direct_path_cost = 99999999.999
+
+    shortest_dijkstra_distance = 9999999.999
+    shortest_dijkstra_path = []
     for node_ref in to_node_query.node_reference:
         if not fastest_direct_path_found:
             # Fastest path is just to run there
@@ -77,6 +138,7 @@ def _query_fastest_path_to(from_node: _Node, to_node_query: _Node, heu_graph_ref
                     "lat": to_node_query.lat,
                     "lng": to_node_query.lng
                 }]
+                direct_path_cost = node_ref["cost"]
             # Fastest route is to teleport to a nearby device, then run
             if node_ref["can_teleport"] == True:
                 fastest_direct_path_found = True
@@ -90,13 +152,33 @@ def _query_fastest_path_to(from_node: _Node, to_node_query: _Node, heu_graph_ref
                     "lat": to_node_query.lat,
                     "lng": to_node_query.lng
                 }]
-        # TODO: Consider if something is a path node
+                direct_path_cost = node_ref["cost"]
         
+        # Try using this pathnode instead, check if its faster using dijkstra...
         if node_ref["is_path_node"]:
-            _query_path_node_reachable(node_ref["node_id"], from_node, heu_graph_ref, [])
+            distances, previous = _query_path_node_reachable(node_ref["node_id"], from_node, heu_graph_ref)
+            distance = distances[from_node.node_id]
 
-    
-    return fastest_path
+            if shortest_dijkstra_distance > distance:
+                shortest_dijkstra_distance = distance
+                shortest_dijkstra_path = fetch_shortest_path(previous, from_node.node_id)
+
+    # If using the pathnode is faster, return it.
+    if shortest_dijkstra_distance < direct_path_cost:
+        result = []
+        for path_id in reversed(shortest_dijkstra_path):
+            path_data = heu_graph_ref[path_id]
+            result.append({
+                "lat": path_data["lat"],
+                "lng": path_data["lng"]
+            })
+        result.append({
+            "lat": to_node_query.lat,
+            "lng": to_node_query.lng
+        })
+        return result
+    else:
+        return fastest_path
 
 def _set_best_next_node(current_node: _Node, to_traverse: dict, heu_graph_ref: dict, result: list) -> _Node:
     # Find possible node from it's list of references
@@ -155,28 +237,36 @@ def find_shortest_path(input) -> list:
     heu_graph = _load_heu_graph()
 
     if heu_graph == None:
-        print("Failed to load Heurestic Graph")
+        print("Failed to load Heurestic Graph.. abort")
         return None
-
-    print("Loaded heurestic graph...")
-    print("Found " + str(len(input)) + " nodes to pathfind...")
 
     pathfind_nodes = _get_pathfind_nodes_data(input, heu_graph)
 
     result = []
 
-    # Fetch a first node
+    # Fetch first node to pathfind towards.
     current_node = _find_starting_node(pathfind_nodes)
-    print("Starting at " + current_node.node_id)
 
     # Start from the very first teleporter closest to the first node
-    starting_point = current_node.find_closest_teleporter()
+    starting_point_node = heu_graph[current_node.find_closest_teleporter()["node_id"]]
 
-    # TODO: Re-evaluate closest node to traverse to again.
-    # (Move towards a node that is the closest to the teleporter instead)
+    # Attempt to move towards a node that is the closest to the teleporter instead...
+    least_cost = 999999.99
+    for node_ref in starting_point_node["node_cost_ref"]:
+        node_ref_id = node_ref["node_id"]
+        if not node_ref_id in pathfind_nodes:
+            continue
+        if node_ref["cost"] <= least_cost:
+            current_node = pathfind_nodes[node_ref_id]
+            least_cost = node_ref["cost"]
+
+    # Ask if the node has a closer teleporter as well, use that instead.
+    starting_point_node = heu_graph[current_node.find_closest_teleporter()["node_id"]]
+
+    # Start from the teleporter...
     result.append({
-        "lat": float(starting_point["lat"]),
-        "lng": float(starting_point["lng"])
+        "lat": float(starting_point_node["lat"]),
+        "lng": float(starting_point_node["lng"])
     })
     # then go to the first node
     result.append({
@@ -187,10 +277,7 @@ def find_shortest_path(input) -> list:
     # Reached node, remove from list of nodes to traverse
     pathfind_nodes.pop(current_node.node_id)
     while len(pathfind_nodes) >= 1:
-        print("Traversed to node " + current_node.node_id)
         current_node = _set_best_next_node(current_node, pathfind_nodes, heu_graph, result)
         pathfind_nodes.pop(current_node.node_id)
-    print("Traversed to node " + current_node.node_id)
 
-    print("Completed pathfinding that has a node lenght of " + str(len(result)))
     return result

@@ -34,7 +34,7 @@ async function _loadMinerals(jsonData) {
 
     for (const mineralData of jsonData) {
         // Create marker first
-        var marker = L.marker([mineralData.lat, mineralData.lng], {
+        const marker = L.marker([mineralData.lat, mineralData.lng], {
             icon: _getIcon(mineralData),
             alt: mineralData.id
         });
@@ -64,11 +64,13 @@ async function _loadMinerals(jsonData) {
 
             if (result) {
                 marker.setOpacity(0.35);
+                circle.setOpacity(0.1);
                 circle.setStyle({
                     fillOpacity: 0.1
                 });
             } else {
                 marker.setOpacity(1);
+                circle.setOpacity(0.1);
                 circle.setStyle({
                     fillOpacity: 0.25
                 });

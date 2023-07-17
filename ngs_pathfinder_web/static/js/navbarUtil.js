@@ -21,7 +21,6 @@ function _removeAllDrawnPaths() {
 }
 
 function _drawPath(pathArray) {
-    _removeAllDrawnPaths();
     var current = pathArray[0];
 
     for (var i = 1; i < pathArray.length; i++) {
@@ -31,15 +30,28 @@ function _drawPath(pathArray) {
         const to = [next["lat"], next["lng"]];
 
         var polylineOptions = {
-            color: 'red'
+            color: '#8C271E' // Red
         };
         // Draw dotted to indicate teleportation, if needed
         if (next["tp"]) {
+            polylineOptions.color = "#37FF8B"; // Green
             polylineOptions.dashArray = '10, 5';
         }
 
         const pathLine = L.polyline([from, to], polylineOptions).addTo(map);
         POLYLINE_REFERENCE.push(pathLine)
+
+        // Draw a text icon marker, indicating the path numbering
+        var textIcon = L.divIcon({
+            className: 'text-icon',
+            html: i.toString()
+        });
+
+        const midPoint = L.latLngBounds([from, to]).getCenter();
+        const marker = L.marker(midPoint, {
+            icon: textIcon
+        }).addTo(map);
+        POLYLINE_REFERENCE.push(marker)
 
         current = next;
     }
@@ -60,10 +72,12 @@ function showPathFinding() {
         },
         data: allNodes,
         success: function(response) {
-            const pathResult = response["result"];
-            console.log(pathResult);
-            console.log(pathResult.length);
+            _removeAllDrawnPaths();
+            if (!'result' in response) {
+                return;
+            }
 
+            const pathResult = response["result"];
             _drawPath(pathResult);
         },
         error: function(xhr, status, error) {
