@@ -154,14 +154,17 @@ def _query_fastest_path_to(from_node: _Node, to_node_query: _Node, heu_graph_ref
                 }]
                 direct_path_cost = node_ref["cost"]
         
-        # Try using this pathnode instead, check if its faster using dijkstra...
-        if node_ref["is_path_node"]:
-            distances, previous = _query_path_node_reachable(node_ref["node_id"], from_node, heu_graph_ref)
-            distance = distances[from_node.node_id]
+        try:
+            # Try using this pathnode instead, check if its faster using dijkstra...
+            if node_ref["is_path_node"]:
+                distances, previous = _query_path_node_reachable(node_ref["node_id"], from_node, heu_graph_ref)
+                distance = distances[from_node.node_id]
 
-            if shortest_dijkstra_distance > distance:
-                shortest_dijkstra_distance = distance
-                shortest_dijkstra_path = fetch_shortest_path(previous, from_node.node_id)
+                if shortest_dijkstra_distance > distance:
+                    shortest_dijkstra_distance = distance
+                    shortest_dijkstra_path = fetch_shortest_path(previous, from_node.node_id)
+        except:
+            continue
 
     # If using the pathnode is faster, return it.
     if shortest_dijkstra_distance < direct_path_cost:
