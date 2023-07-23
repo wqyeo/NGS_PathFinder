@@ -28,7 +28,11 @@ python manage.py runserver
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
-You can now access the project by visiting `http://127.0.0.1:8000/` from your web browser.
+You can now access the project by visiting `http://127.0.0.1:8000/` from your web browser
+
+## Usage
+
+Click on the mineral nodes in the map. Then click on the bottom button _(Show Pathfindings)_, and the map should draw out a line of paths.
 
 ## Acknowledgements
 
