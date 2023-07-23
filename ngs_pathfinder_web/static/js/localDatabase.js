@@ -2,7 +2,6 @@
 function registerPathNode(nodeId) {
     if (pathNodeExists(nodeId)) {
         localStorage.removeItem(nodeId);
-        console.log("Removed " + nodeId)
         return false;
     }
 
@@ -11,7 +10,6 @@ function registerPathNode(nodeId) {
     };
 
     localStorage.setItem(nodeId, JSON.stringify(entry));
-    console.log("Added " + nodeId)
     return true;
 }
 

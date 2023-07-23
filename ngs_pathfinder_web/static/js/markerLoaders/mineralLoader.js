@@ -64,13 +64,11 @@ async function _loadMinerals(jsonData) {
 
             if (result) {
                 marker.setOpacity(0.35);
-                circle.setOpacity(0.1);
                 circle.setStyle({
                     fillOpacity: 0.1
                 });
             } else {
                 marker.setOpacity(1);
-                circle.setOpacity(0.1);
                 circle.setStyle({
                     fillOpacity: 0.25
                 });
